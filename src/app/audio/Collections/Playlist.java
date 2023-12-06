@@ -17,6 +17,34 @@ public final class Playlist extends AudioCollection {
     private Integer followers;
     private int timestamp;
 
+    public ArrayList<Song> getSongs() {
+        return songs;
+    }
+
+    public Enums.Visibility getVisibility() {
+        return visibility;
+    }
+
+    public void setVisibility(Enums.Visibility visibility) {
+        this.visibility = visibility;
+    }
+
+    public Integer getFollowers() {
+        return followers;
+    }
+
+    public void setFollowers(Integer followers) {
+        this.followers = followers;
+    }
+
+    public int getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(int timestamp) {
+        this.timestamp = timestamp;
+    }
+
     /**
      * Instantiates a new Playlist.
      *

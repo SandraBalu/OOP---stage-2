@@ -18,6 +18,39 @@ public final class Song extends AudioFile {
     private final String artist;
     private Integer likes;
 
+
+    public String getAlbum() {
+        return album;
+    }
+
+    public ArrayList<String> getTags() {
+        return tags;
+    }
+
+    public String getLyrics() {
+        return lyrics;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public Integer getReleaseYear() {
+        return releaseYear;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
+
     /**
      * Instantiates a new Song.
      *

@@ -36,6 +36,71 @@ public class User {
     private final SearchBar searchBar;
     private boolean lastSearched;
 
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    public void setPlaylists(ArrayList<Playlist> playlists) {
+        this.playlists = playlists;
+    }
+
+    public ArrayList<Song> getLikedSongs() {
+        return likedSongs;
+    }
+
+    public void setLikedSongs(ArrayList<Song> likedSongs) {
+        this.likedSongs = likedSongs;
+    }
+
+    public ArrayList<Playlist> getFollowedPlaylists() {
+        return followedPlaylists;
+    }
+
+    public void setFollowedPlaylists(ArrayList<Playlist> followedPlaylists) {
+        this.followedPlaylists = followedPlaylists;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public SearchBar getSearchBar() {
+        return searchBar;
+    }
+
+    public boolean isLastSearched() {
+        return lastSearched;
+    }
+
+    public void setLastSearched(boolean lastSearched) {
+        this.lastSearched = lastSearched;
+    }
+
     /**
      * Instantiates a new User.
      *

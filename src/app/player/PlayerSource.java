@@ -26,6 +26,55 @@ public class PlayerSource {
     private int remainedDuration;
     private final List<Integer> indices = new ArrayList<>();
 
+
+    public Enums.PlayerSourceType getType() {
+        return type;
+    }
+
+    public void setType(Enums.PlayerSourceType type) {
+        this.type = type;
+    }
+
+    public AudioCollection getAudioCollection() {
+        return audioCollection;
+    }
+
+    public void setAudioCollection(AudioCollection audioCollection) {
+        this.audioCollection = audioCollection;
+    }
+
+    public AudioFile getAudioFile() {
+        return audioFile;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
+    public int getIndexShuffled() {
+        return indexShuffled;
+    }
+
+    public void setIndexShuffled(int indexShuffled) {
+        this.indexShuffled = indexShuffled;
+    }
+
+    public int getRemainedDuration() {
+        return remainedDuration;
+    }
+
+    public void setRemainedDuration(int remainedDuration) {
+        this.remainedDuration = remainedDuration;
+    }
+
+    public List<Integer> getIndices() {
+        return indices;
+    }
+
     /**
      * Instantiates a new Player source.
      *

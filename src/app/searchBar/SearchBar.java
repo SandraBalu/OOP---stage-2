@@ -32,6 +32,34 @@ public final class SearchBar {
     @Getter
     private LibraryEntry lastSelected;
 
+    public List<LibraryEntry> getResults() {
+        return results;
+    }
+
+    public void setResults(List<LibraryEntry> results) {
+        this.results = results;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public String getLastSearchType() {
+        return lastSearchType;
+    }
+
+    public void setLastSearchType(String lastSearchType) {
+        this.lastSearchType = lastSearchType;
+    }
+
+    public LibraryEntry getLastSelected() {
+        return lastSelected;
+    }
+
+    public void setLastSelected(LibraryEntry lastSelected) {
+        this.lastSelected = lastSelected;
+    }
+
     /**
      * Instantiates a new Search bar.
      *

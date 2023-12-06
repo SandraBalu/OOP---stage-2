@@ -23,6 +23,57 @@ public final class Player {
 
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
 
+    public Enums.RepeatMode getRepeatMode() {
+        return repeatMode;
+    }
+
+    public void setRepeatMode(Enums.RepeatMode repeatMode) {
+        this.repeatMode = repeatMode;
+    }
+
+    public boolean isShuffle() {
+        return shuffle;
+    }
+
+    public void setShuffle(boolean shuffle) {
+        this.shuffle = shuffle;
+    }
+
+    public boolean isPaused() {
+        return paused;
+    }
+
+    public void setPaused(boolean paused) {
+        this.paused = paused;
+    }
+
+    public PlayerSource getSource() {
+        return source;
+    }
+
+    public void setSource(PlayerSource source) {
+        this.source = source;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getSkipTime() {
+        return skipTime;
+    }
+
+    public ArrayList<PodcastBookmark> getBookmarks() {
+        return bookmarks;
+    }
+
+    public void setBookmarks(ArrayList<PodcastBookmark> bookmarks) {
+        this.bookmarks = bookmarks;
+    }
 
     /**
      * Instantiates a new Player.

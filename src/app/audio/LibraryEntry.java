@@ -11,6 +11,10 @@ import java.util.ArrayList;
 public abstract class LibraryEntry {
     private final String name;
 
+    public String getName() {
+        return name;
+    }
+
     /**
      * Instantiates a new Library entry.
      *

@@ -8,6 +8,19 @@ public final class PodcastBookmark {
     private final int id;
     private final int timestamp;
 
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getTimestamp() {
+        return timestamp;
+    }
+
     public PodcastBookmark(final String name,
                            final int id,
                            final int timestamp) {

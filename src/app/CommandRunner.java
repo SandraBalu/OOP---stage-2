@@ -34,6 +34,10 @@ public final class CommandRunner {
         Filters filters = new Filters(commandInput.getFilters());
         String type = commandInput.getType();
 
+        if (user == null) {
+            return null;
+        }
+
         ArrayList<String> results = user.search(filters, type);
         String message = "Search returned " + results.size() + " results";
 
@@ -56,6 +60,9 @@ public final class CommandRunner {
     public static ObjectNode select(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
 
+        if (user == null) {
+            return null;
+        }
         String message = user.select(commandInput.getItemNumber());
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -75,6 +82,9 @@ public final class CommandRunner {
      */
     public static ObjectNode load(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.load();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -113,6 +123,9 @@ public final class CommandRunner {
      */
     public static ObjectNode repeat(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.repeat();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -152,6 +165,9 @@ public final class CommandRunner {
      */
     public static ObjectNode forward(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.forward();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -190,6 +206,9 @@ public final class CommandRunner {
      */
     public static ObjectNode like(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.like();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -209,6 +228,9 @@ public final class CommandRunner {
      */
     public static ObjectNode next(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.next();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -228,6 +250,9 @@ public final class CommandRunner {
      */
     public static ObjectNode prev(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.prev();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -247,6 +272,9 @@ public final class CommandRunner {
      */
     public static ObjectNode createPlaylist(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.createPlaylist(commandInput.getPlaylistName(),
                                              commandInput.getTimestamp());
 
@@ -267,6 +295,9 @@ public final class CommandRunner {
      */
     public static ObjectNode addRemoveInPlaylist(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.addRemoveInPlaylist(commandInput.getPlaylistId());
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -286,6 +317,9 @@ public final class CommandRunner {
      */
     public static ObjectNode switchVisibility(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.switchPlaylistVisibility(commandInput.getPlaylistId());
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -305,6 +339,9 @@ public final class CommandRunner {
      */
     public static ObjectNode showPlaylists(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         ArrayList<PlaylistOutput> playlists = user.showPlaylists();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -324,6 +361,9 @@ public final class CommandRunner {
      */
     public static ObjectNode follow(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String message = user.follow();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -343,6 +383,9 @@ public final class CommandRunner {
      */
     public static ObjectNode status(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         PlayerStats stats = user.getPlayerStats();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -362,6 +405,9 @@ public final class CommandRunner {
      */
     public static ObjectNode showLikedSongs(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         ArrayList<String> songs = user.showPreferredSongs();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -381,6 +427,9 @@ public final class CommandRunner {
      */
     public static ObjectNode getPreferredGenre(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
         String preferredGenre = user.getPreferredGenre();
 
         ObjectNode objectNode = objectMapper.createObjectNode();

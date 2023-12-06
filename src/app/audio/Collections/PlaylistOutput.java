@@ -13,6 +13,22 @@ public class PlaylistOutput {
     private final int followers;
 
 
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<String> getSongs() {
+        return songs;
+    }
+
+    public String getVisibility() {
+        return visibility;
+    }
+
+    public int getFollowers() {
+        return followers;
+    }
+
     public PlaylistOutput(final Playlist playlist) {
         this.name = playlist.getName();
         this.songs = new ArrayList<>();

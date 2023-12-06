@@ -11,6 +11,30 @@ public class PlayerStats {
     private final boolean shuffle;
     private final boolean paused;
 
+    public String getName() {
+        return name;
+    }
+
+    public int getRemainedTime() {
+        return remainedTime;
+    }
+
+    public String getRepeat() {
+        return repeat;
+    }
+
+    public void setRepeat(String repeat) {
+        this.repeat = repeat;
+    }
+
+    public boolean isShuffle() {
+        return shuffle;
+    }
+
+    public boolean isPaused() {
+        return paused;
+    }
+
     public PlayerStats(final String name,
                        final int remainedTime,
                        final Enums.RepeatMode repeatMode,

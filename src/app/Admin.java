@@ -104,6 +104,15 @@ public final class Admin {
     }
 
     /**
+     * Gets users
+     *
+     * @return the users
+     */
+    public static List<User> getUsers() {
+        return users;
+    }
+
+    /**
      * Gets user.
      *
      * @param username the username
@@ -185,5 +194,18 @@ public final class Admin {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
         timestamp = 0;
+    }
+
+    public static List<String> onlineUsers() {
+
+        List<User> onUsers = new ArrayList<>(getUsers());
+        List<String> userNames = new ArrayList<>();
+        for(User user : onUsers) {
+            if (user.isConnected()) {
+                String name = user.getUsername();
+                userNames.add(name);
+            }
+        }
+        return userNames;
     }
 }

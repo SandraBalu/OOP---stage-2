@@ -36,6 +36,8 @@ public class User {
     private final SearchBar searchBar;
     private boolean lastSearched;
 
+    private boolean isConnected;
+
 
     public String getUsername() {
         return username;
@@ -101,6 +103,14 @@ public class User {
         this.lastSearched = lastSearched;
     }
 
+    public boolean isConnected() {
+        return isConnected;
+    }
+
+    public void setConnected(boolean connected) {
+        isConnected = connected;
+    }
+
     /**
      * Instantiates a new User.
      *
@@ -118,6 +128,7 @@ public class User {
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
+        this.isConnected = true;
     }
 
     /**
@@ -544,5 +555,26 @@ public class User {
      */
     public void simulateTime(final int time) {
         player.simulatePlayer(time);
+    }
+
+
+    /**
+     * switch connection for the current user
+     *
+     * @param user the user whose connection is changed
+     * @return the string
+     */
+    public String switchConnection(User user) {
+
+      user.setConnected(!user.isConnected());
+      String message =  user.getUsername() + " has changed status successfully.";
+
+        if (player.getCurrentAudioFile() == null) {
+            return message;
+        }
+
+
+      return message;
+
     }
 }

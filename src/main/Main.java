@@ -2,6 +2,7 @@ package main;
 
 import app.Admin;
 import app.CommandRunner;
+import app.user.User;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -83,7 +84,13 @@ public final class Main {
         Admin.setPodcasts(library.getPodcasts());
 
         for (CommandInput command : commands) {
-            Admin.updateTimestamp(command.getTimestamp());
+            User user = Admin.getUser(command.getUsername());
+            if (user != null) {
+                if (user.isConnected()) {
+                    Admin.updateTimestamp(command.getTimestamp());
+                }
+            }
+
 
             String commandName = command.getCommand();
 

@@ -573,7 +573,6 @@ public class User {
             return message;
         }
 
-
       return message;
 
     }

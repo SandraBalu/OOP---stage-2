@@ -1,11 +1,9 @@
 package app.user;
 
 import app.Admin;
-import app.audio.Collections.Album;
-import app.audio.Collections.AudioCollection;
-import app.audio.Collections.Playlist;
-import app.audio.Collections.PlaylistOutput;
+import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
+import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
 import app.player.Player;
@@ -13,6 +11,7 @@ import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
+import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
 
@@ -36,6 +35,7 @@ public class User {
     @Getter
     private ArrayList<Playlist> followedPlaylists;
     private ArrayList<Album> albums;
+    private ArrayList<Podcast> podcasts;
     private final Player player;
     private final SearchBar searchBar;
     private String type;
@@ -115,6 +115,7 @@ public class User {
         isConnected = connected;
     }
 
+
     public String getType() {
         return type;
     }
@@ -137,6 +138,7 @@ public class User {
         playlists = new ArrayList<>();
         likedSongs = new ArrayList<>();
         albums = new ArrayList<>();
+        podcasts = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
         player = new Player();
         searchBar = new SearchBar(username);
@@ -204,6 +206,7 @@ public class User {
         }
 
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
+
         searchBar.clearSelection();
 
         player.pause();
@@ -305,6 +308,7 @@ public class User {
         }
 
         player.skipNext();
+
 
         return "Skipped forward successfully.";
     }
@@ -603,6 +607,40 @@ public class User {
             Admin.addSong(song);
         }
 
-        return "Album added successfully.";
+        return username + " has added new album successfully.";
+    }
+
+    public String addPodcast(final String name, final ArrayList<Episode> episodes) {
+        if (albums.stream().anyMatch(album -> album.getName().equals(name))) {
+            return "A podcast with the same name already exists.";
+        }
+        Podcast newPodcast = new Podcast(name, username, episodes);
+        if (podcasts != null) {
+            podcasts.add(newPodcast);
+        }
+        Admin.addPodcast(newPodcast);
+        return username + " has added new podcast successfully.";
+    }
+
+    public String removePodcast(final String name) {
+
+        for (Podcast podcast : podcasts) {
+            if (podcast.getName().equals(name)) {
+                   for (User user : Admin.getUsers()) {
+                       if (user.getPlayer() != null && user.getPlayer().getType() != null) {
+                           if (user.getPlayer().getType().equals("podcast") && user.getPlayer().getSource() != null) {
+                               if (podcast.getEpisodes().contains(user.getPlayer().getSource().getAudioFile())) {
+                                   return username + " can't delete this podcast.";
+                               }
+                           }
+                       }
+                   }
+                    podcasts.remove(podcast);
+                    Admin.removePodcast(name);
+                    return "podcast removed succesfuly";
+
+            }
+        }
+        return "the username doesn't has this podcast";
     }
 }

@@ -21,8 +21,10 @@ public final class Admin {
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
+
     private static int timestamp = 0;
     private static final int LIMIT = 5;
+
 
     private Admin() {
     }
@@ -93,6 +95,36 @@ public final class Admin {
             }
             podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
         }
+    }
+
+    /**
+     * Removes a podcast and all its episodes.
+     *
+     * @param podcastName the name of the podcast to be removed
+     */
+    public static void removePodcast(String podcastName) {
+        // Find the podcast by name
+        Podcast podcastToRemove = null;
+        for (Podcast podcast : podcasts) {
+            if (podcast.getName().equals(podcastName)) {
+                podcastToRemove = podcast;
+                break;
+            }
+        }
+
+        // If the podcast is found, remove it and its episodes
+        if (podcastToRemove != null) {
+            podcasts.remove(podcastToRemove);
+        }
+    }
+
+    /**
+     * Add new podcast
+     *
+     * @param newPodcast podcast to add
+     */
+    public static void addPodcast(Podcast newPodcast) {
+        podcasts.add(newPodcast);
     }
 
     /**

@@ -1,6 +1,7 @@
 package app;
 
 import app.audio.Collections.PlaylistOutput;
+import app.audio.Files.Episode;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
@@ -564,6 +565,61 @@ public final class CommandRunner {
 
         } else {
            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        objectNode.put("message", message);
+        return objectNode;
+
+    }
+
+    public static ObjectNode addPodcast(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message;
+
+        if (Admin.getUser(commandInput.getUsername()) != null) {
+            User user = Admin.getUser(commandInput.getUsername());
+
+            if (user.getType().equals("host")) {
+                ArrayList<Episode> episodes = commandInput.convertEpisodes(commandInput.getEpisodes());
+                message = user.addPodcast(commandInput.getName(), episodes);
+
+            } else {
+                message = user.getUsername() + "is not an host.";
+            }
+
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        objectNode.put("message", message);
+        return objectNode;
+
+    }
+
+
+
+    public static ObjectNode removePodcast(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message;
+
+        if (Admin.getUser(commandInput.getUsername()) != null) {
+            User user = Admin.getUser(commandInput.getUsername());
+
+            if (user.getType().equals("host")) {
+                message = user.removePodcast(commandInput.getName());
+
+            } else {
+                message = user.getUsername() + "is not an host.";
+            }
+
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
         }
 
         objectNode.put("message", message);

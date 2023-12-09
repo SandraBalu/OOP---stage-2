@@ -1,5 +1,6 @@
 package fileio.input;
 
+import app.audio.Files.Episode;
 import app.audio.Files.Song;
 
 import java.util.ArrayList;
@@ -203,5 +204,15 @@ public final class CommandInput {
                 + ", playlistName='" + playlistName + '\''
                 + ", seed=" + seed
                 + '}';
+    }
+
+    public ArrayList<Episode> convertEpisodes (ArrayList<EpisodeInput> episodes) {
+        ArrayList<Episode> convertedEpisodes = new ArrayList<>();
+        for (EpisodeInput episodeInput : episodes) {
+            convertedEpisodes.add(new Episode(episodeInput.getName(),
+                    episodeInput.getDuration(),
+                    episodeInput.getDescription()));
+        }
+        return convertedEpisodes;
     }
 }

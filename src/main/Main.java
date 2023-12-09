@@ -120,7 +120,9 @@ public final class Main {
                 case "switchConnectionStatus" -> outputs.add(CommandRunner.switchConnection(command));
                 case "getOnlineUsers" -> outputs.add(CommandRunner.onlineUsers(command));
                 case "addUser" -> outputs.add(CommandRunner.addUser(command));
-                case "addAlbum" ->outputs.add(CommandRunner.addAlbum(command));
+                case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
+                case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));
+                case "removePodcast" -> outputs.add(CommandRunner.removePodcast(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

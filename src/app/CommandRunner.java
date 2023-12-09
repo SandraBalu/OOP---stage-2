@@ -7,6 +7,7 @@ import app.user.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.CommandInput;
+import fileio.input.UserInput;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -522,6 +523,52 @@ public final class CommandRunner {
         objectNode.put("result", objectMapper.valueToTree(results));
 
         return objectNode;
+    }
+
+    public static ObjectNode addUser(final CommandInput commandInput) {
+
+        UserInput user = new UserInput();
+        user.setUsername(commandInput.getUsername());
+        user.setType(commandInput.getType());
+        user.setCity(commandInput.getCity());
+        user.setAge(commandInput.getAge());
+
+        Admin.addUser(user);
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message = "The username " + commandInput.getUsername() + " has been added successfully.";
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    public static ObjectNode addAlbum(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message;
+
+        if (Admin.getUser(commandInput.getUsername()) != null) {
+            User user = Admin.getUser(commandInput.getUsername());
+
+            if (user.getType().equals("artist")) {
+                message = user.addAlbum(commandInput.getName(), commandInput.getSongs());
+
+            } else {
+                message = user.getUsername() + "is not an artist.";
+            }
+
+        } else {
+           message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        objectNode.put("message", message);
+        return objectNode;
+
     }
 
 }

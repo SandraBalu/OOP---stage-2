@@ -1,5 +1,7 @@
 package app.user;
 
+import app.Admin;
+import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.PlaylistOutput;
@@ -11,6 +13,7 @@ import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
+import fileio.input.SongInput;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -32,10 +35,11 @@ public class User {
     private ArrayList<Song> likedSongs;
     @Getter
     private ArrayList<Playlist> followedPlaylists;
+    private ArrayList<Album> albums;
     private final Player player;
     private final SearchBar searchBar;
+    private String type;
     private boolean lastSearched;
-
     private boolean isConnected;
 
 
@@ -111,6 +115,14 @@ public class User {
         isConnected = connected;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     /**
      * Instantiates a new User.
      *
@@ -118,17 +130,19 @@ public class User {
      * @param age      the age
      * @param city     the city
      */
-    public User(final String username, final int age, final String city) {
+    public User(final String username, final int age, final String city, final String type) {
         this.username = username;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
         likedSongs = new ArrayList<>();
+        albums = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
         this.isConnected = true;
+        this.type = type;
     }
 
     /**
@@ -575,5 +589,20 @@ public class User {
 
       return message;
 
+    }
+
+    public String addAlbum(final String name, final ArrayList<SongInput> songs) {
+        if (albums.stream().anyMatch(album -> album.getName().equals(name))) {
+            return "A album with the same name already exists.";
+        }
+        Album newAlbum = new Album(name, username);
+        newAlbum.setSongs(songs);
+        albums.add(newAlbum);
+
+        for (SongInput song : songs) {
+            Admin.addSong(song);
+        }
+
+        return "Album added successfully.";
     }
 }

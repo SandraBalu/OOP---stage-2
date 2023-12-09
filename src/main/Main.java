@@ -119,6 +119,8 @@ public final class Main {
                 case "getTop5Playlists" -> outputs.add(CommandRunner.getTop5Playlists(command));
                 case "switchConnectionStatus" -> outputs.add(CommandRunner.switchConnection(command));
                 case "getOnlineUsers" -> outputs.add(CommandRunner.onlineUsers(command));
+                case "addUser" -> outputs.add(CommandRunner.addUser(command));
+                case "addAlbum" ->outputs.add(CommandRunner.addAlbum(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

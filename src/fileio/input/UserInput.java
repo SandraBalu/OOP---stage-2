@@ -4,8 +4,10 @@ public final class UserInput {
     private String username;
     private int age;
     private String city;
+    private String type;
 
     public UserInput() {
+        this.type = "normal";
     }
 
     public String getUsername() {
@@ -30,6 +32,14 @@ public final class UserInput {
 
     public void setCity(final String city) {
         this.city = city;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     @Override

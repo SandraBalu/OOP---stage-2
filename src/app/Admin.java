@@ -35,9 +35,20 @@ public final class Admin {
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
-            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity()));
+            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(),"normal"));
         }
     }
+
+    /**
+     * Add new user in the list
+     *
+     * @param userInput the user to add
+     */
+    public static void addUser(UserInput userInput) {
+        User newUser = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), userInput.getType());
+        users.add(newUser);
+    }
+
 
     /**
      * Sets songs.
@@ -51,6 +62,18 @@ public final class Admin {
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                     songInput.getReleaseYear(), songInput.getArtist()));
         }
+    }
+
+    /**
+     * Add new song to the lieary
+     *
+     * @param songInput the song to add
+     */
+    public static void addSong(SongInput songInput) {
+        Song newSong = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
+                songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
+                songInput.getReleaseYear(), songInput.getArtist());
+        songs.add(newSong);
     }
 
 

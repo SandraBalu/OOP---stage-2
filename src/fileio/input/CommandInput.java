@@ -18,7 +18,6 @@ public final class CommandInput {
     private Integer age;
     private String date;
     private Integer releaseYear;
-
     private Integer price;
     private ArrayList<EpisodeInput> episodes;
     private String city;

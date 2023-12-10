@@ -151,13 +151,28 @@ public final class SearchBar {
                 }
 
                 break;
+            case "album":
+                entries = new ArrayList<>(Admin.getAlbums());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                if (filters.getOwner() != null) {
+                    entries = filterByOwner(entries, filters.getOwner());
+                }
+                break;
+
             default:
                 entries = new ArrayList<>();
         }
-
         while (entries.size() > MAX_RESULTS) {
             entries.remove(entries.size() - 1);
         }
+
+//        if (type.equals("album")) {
+//            System.out.println(entries.size());
+//        }
 
         this.results = entries;
         this.lastSearchType = type;

@@ -14,6 +14,7 @@ import app.utils.Enums;
 import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
+import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -282,7 +283,7 @@ public class User {
         }
 
         if (!player.getType().equals("playlist")) {
-            return "The loaded source is not a playlist.";
+            return "The loaded source is not a playlist or an album.";
         }
 
         player.shuffle(seed);
@@ -299,7 +300,7 @@ public class User {
      * @return the string
      */
     public String forward() {
-        if (player.getCurrentAudioFile() == null) {
+        if (player.getSource() == null ) {
             return "Please load a source before attempting to forward.";
         }
 
@@ -602,6 +603,7 @@ public class User {
         Album newAlbum = new Album(name, username);
         newAlbum.setSongs(songs);
         albums.add(newAlbum);
+        Admin.addAlbum(newAlbum);
 
         for (SongInput song : songs) {
             Admin.addSong(song);

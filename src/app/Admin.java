@@ -1,5 +1,6 @@
 package app;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
@@ -21,6 +22,8 @@ public final class Admin {
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
+
+    private static List<Album> albums = new ArrayList<>();
 
     private static int timestamp = 0;
     private static final int LIMIT = 5;
@@ -183,6 +186,19 @@ public final class Admin {
     }
 
     /**
+     * Add new album to the library.
+     *
+     * @param album the album to add
+     */
+    public static void addAlbum(Album album) {
+        albums.add(album);
+    }
+
+    public static List<Album> getAlbums() {
+        return albums;
+    }
+
+    /**
      * Update timestamp.
      *
      * @param newTimestamp the new timestamp
@@ -248,6 +264,7 @@ public final class Admin {
         users = new ArrayList<>();
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
+        albums = new ArrayList<>();
         timestamp = 0;
     }
 

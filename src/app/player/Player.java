@@ -125,9 +125,15 @@ public final class Player {
             return new PlayerSource(Enums.PlayerSourceType.PLAYLIST, (AudioCollection) entry);
         } else if ("podcast".equals(type)) {
             return createPodcastSource((AudioCollection) entry, bookmarks);
+        } else if ("album".equals(type)) {
+            return createAlbumSource((AudioCollection) entry);
         }
 
         return null;
+    }
+
+    private static PlayerSource createAlbumSource(final AudioCollection collection) {
+        return new PlayerSource(Enums.PlayerSourceType.ALBUM, collection);
     }
 
     private static PlayerSource createPodcastSource(final AudioCollection collection,
@@ -218,15 +224,18 @@ public final class Player {
     public void simulatePlayer(final int time) {
         int elapsedTime = time;
         if (!paused) {
-            while (elapsedTime >= source.getDuration()) {
-                elapsedTime -= source.getDuration();
-                next();
-                if (paused) {
-                    break;
+            if (source != null) {
+                while (elapsedTime >= source.getDuration()) {
+                    elapsedTime -= source.getDuration();
+                    next();
+                    if (paused) {
+                        break;
+                    }
                 }
-            }
-            if (!paused) {
-                source.skip(-elapsedTime);
+
+                if (!paused) {
+                    source.skip(-elapsedTime);
+                }
             }
         }
     }

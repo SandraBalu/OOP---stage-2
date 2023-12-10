@@ -15,7 +15,8 @@ public class Enums { // diferite enumuri, le-am gurpat pe toate intr-un loc
     public enum SearchType {
         SONG,
         PLAYLIST,
-        PODCAST
+        PODCAST,
+        ALBUM
     }
 
     public enum RepeatMode {
@@ -23,6 +24,6 @@ public class Enums { // diferite enumuri, le-am gurpat pe toate intr-un loc
     }
 
     public enum PlayerSourceType {
-        LIBRARY, PLAYLIST, PODCAST
+        LIBRARY, PLAYLIST, ALBUM, PODCAST
     }
 }

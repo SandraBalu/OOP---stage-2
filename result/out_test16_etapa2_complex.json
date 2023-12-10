@@ -19032,4 +19032,8 @@
   "command" : "getTop5Songs",
   "timestamp" : 14850,
   "result" : [ "Don't", "Whatever You Need", "Start Me Up", "The Man", "Delicate" ]
+}, {
+  "command" : "getTop5Albums",
+  "timestamp" : 14850,
+  "result" : [ "Electric Funeral ", "Breezy View", "Dynamic Technology", "Alone Technology", "Alone Guide" ]
 } ]

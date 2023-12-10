@@ -235,6 +235,8 @@ public final class Admin {
         return topSongs;
     }
 
+
+
     /**
      * Gets top 5 playlists.
      *
@@ -255,6 +257,32 @@ public final class Admin {
             count++;
         }
         return topPlaylists;
+    }
+
+
+    /**
+     * Gets top albums.
+     *
+     * @return the top 5 albums
+     */
+    public static List<String> getTop5Albums() {
+        List<Album> sortedAlbums = new ArrayList<>(getAlbums());
+        for (Album album : sortedAlbums) {
+            album.setLikes(album.getSongs());
+        }
+        sortedAlbums.sort(Comparator.comparingInt(Album::getLikes)
+                .reversed()
+                .thenComparing(Album::getTimestamp, Comparator.naturalOrder()));
+        List<String> topAlbums = new ArrayList<>();
+        int count = 0;
+        for (Album album : sortedAlbums) {
+            if (count >= LIMIT) {
+                break;
+            }
+            topAlbums.add(album.getName());
+            count++;
+        }
+        return topAlbums;
     }
 
     /**

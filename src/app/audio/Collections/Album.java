@@ -15,6 +15,8 @@ public final class Album extends AudioCollection {
     private int releaseYear;
     private String description;
 
+    private int likes;
+
     public Album(final String name, final String owner) {
         super(name, owner);
     }
@@ -31,6 +33,16 @@ public final class Album extends AudioCollection {
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                     songInput.getReleaseYear(), songInput.getArtist()));
         }
+    }
+
+    public void setLikes(final List<Song> songs) {
+        for (Song song : songs) {
+            likes += song.getLikes();
+        }
+    }
+
+    public int getLikes() {
+        return likes;
     }
 
     public ArrayList<Song> getSongs() {

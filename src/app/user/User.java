@@ -480,6 +480,20 @@ public class User {
     }
 
     /**
+     * Show albums array list.
+     *
+     * @return the array list
+     */
+    public ArrayList<AlbumOutput> showAlbums() {
+        ArrayList<AlbumOutput> albumOutputs = new ArrayList<>();
+        for (Album album : albums) {
+            albumOutputs.add(new AlbumOutput(album));
+        }
+
+        return albumOutputs;
+    }
+
+    /**
      * Follow string.
      *
      * @return the string

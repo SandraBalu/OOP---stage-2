@@ -1,5 +1,6 @@
 package app;
 
+import app.audio.Collections.AlbumOutput;
 import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.Episode;
 import app.player.PlayerStats;
@@ -361,6 +362,28 @@ public final class CommandRunner {
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("timestamp", commandInput.getTimestamp());
         objectNode.put("result", objectMapper.valueToTree(playlists));
+
+        return objectNode;
+    }
+
+    /**
+     * Show Albumss object node.
+     *
+     * @param commandInput the command input
+     * @return the object node
+     */
+    public static ObjectNode showAlbums(final CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
+        ArrayList<AlbumOutput> albums = user.showAlbums();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(albums));
 
         return objectNode;
     }

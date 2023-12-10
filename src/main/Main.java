@@ -111,6 +111,7 @@ public final class Main {
                         outputs.add(CommandRunner.addRemoveInPlaylist(command));
                 case "switchVisibility" -> outputs.add(CommandRunner.switchVisibility(command));
                 case "showPlaylists" -> outputs.add(CommandRunner.showPlaylists(command));
+                case "showAlbums" -> outputs.add(CommandRunner.showAlbums(command));
                 case "follow" -> outputs.add(CommandRunner.follow(command));
                 case "status" -> outputs.add(CommandRunner.status(command));
                 case "showPreferredSongs" -> outputs.add(CommandRunner.showLikedSongs(command));

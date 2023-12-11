@@ -3,6 +3,7 @@ package app;
 import app.audio.Collections.AlbumOutput;
 import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.Episode;
+import app.pages.PageFactory;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
@@ -574,13 +575,12 @@ public final class CommandRunner {
         user.setCity(commandInput.getCity());
         user.setAge(commandInput.getAge());
 
-        Admin.addUser(user);
+        String message = Admin.Adduser(user);
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("timestamp", commandInput.getTimestamp());
-        String message = "The username " + commandInput.getUsername() + " has been added successfully.";
         objectNode.put("message", message);
 
         return objectNode;
@@ -665,6 +665,54 @@ public final class CommandRunner {
         objectNode.put("message", message);
         return objectNode;
 
+    }
+
+    public static ObjectNode printPage(final CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        PageFactory pageFactory = new PageFactory();
+        if (user == null) {
+            return null;
+        }
+        String message = pageFactory.getPage(commandInput, user).displayContent();
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    public static ObjectNode addMerch(final CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        if (user == null) {
+            return null;
+        }
+        String message = user.addMerch(commandInput);
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    public static ObjectNode addEvent(final CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        String message;
+        if (user == null) {
+            message = "The username " + commandInput.getUsername()+ " doesn't exist.";
+        } else {
+            message = user.addEvent(commandInput);
+        }
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
     }
 
 }

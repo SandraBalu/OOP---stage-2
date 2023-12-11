@@ -2,15 +2,18 @@ package app.user;
 
 import app.Admin;
 import app.audio.Collections.*;
-import app.audio.Files.AudioFile;
-import app.audio.Files.Episode;
-import app.audio.Files.Song;
+import app.audio.Files.*;
 import app.audio.LibraryEntry;
+import app.pages.HomePage;
+import app.pages.HostPage;
+import app.pages.Page;
+import app.pages.PageFactory;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
+import fileio.input.CommandInput;
 import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
@@ -40,6 +43,8 @@ public class User {
     private final Player player;
     private final SearchBar searchBar;
     private String type;
+    private ArrayList<Merch> merches;
+    private ArrayList<Event> events;
     private boolean lastSearched;
     private boolean isConnected;
 
@@ -125,6 +130,7 @@ public class User {
         this.type = type;
     }
 
+
     /**
      * Instantiates a new User.
      *
@@ -143,10 +149,14 @@ public class User {
         followedPlaylists = new ArrayList<>();
         player = new Player();
         searchBar = new SearchBar(username);
+        merches = new  ArrayList<>();
+        events  = new  ArrayList<>();
         lastSearched = false;
         this.isConnected = true;
         this.type = type;
     }
+
+
 
     /**
      * Search array list.
@@ -345,6 +355,10 @@ public class User {
 
         if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
             return "Loaded source is not a song.";
+        }
+
+        if (!isConnected) {
+            return username + " is offline.";
         }
 
         Song song = (Song) player.getCurrentAudioFile();
@@ -612,8 +626,16 @@ public class User {
 
     public String addAlbum(final String name, final ArrayList<SongInput> songs) {
         if (albums.stream().anyMatch(album -> album.getName().equals(name))) {
-            return "A album with the same name already exists.";
+            return username + " has another album with the same name.";
         }
+        for (int i = 0; i < songs.size() - 1; i++) {
+            for (int j = i + 1; j < songs.size(); j++) {
+                if (songs.get(i).getName().equals(songs.get(j).getName())) {
+                    return username + " has the same song at least twice in this album.";
+                }
+            }
+        }
+
         Album newAlbum = new Album(name, username);
         newAlbum.setSongs(songs);
         albums.add(newAlbum);
@@ -658,5 +680,56 @@ public class User {
             }
         }
         return "the username doesn't has this podcast";
+    }
+
+
+    public String addMerch(CommandInput commandInput) {
+
+        if (commandInput.getPrice() < 0) {
+            return "Price for merchandise can not be negative.";
+        }
+        List<User> users = Admin.getUsers();
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                if (!type.equals("artist")) {
+                    return username + " is not an artist";
+                }
+                for (Merch merch : merches) {
+                    if (merch.getName().equals(commandInput.getName())) {
+                        return username + " has merchandise with the same name.";
+                    }
+                }
+                Merch newMerch = new Merch(commandInput.getName(),
+                        commandInput.getDescription(), commandInput.getPrice());
+
+                merches.add(newMerch);
+                return username + " has added new merchandise successfully.";
+            }
+        }
+        return "The username " + username + " doesn't exist.";
+    }
+
+
+    public String addEvent(CommandInput commandInput) {
+
+        List<User> users = Admin.getUsers();
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                if (!type.equals("artist")) {
+                    return username + " is not an artist.";
+                }
+                for (Event event : events) {
+                    if (event.getName().equals(commandInput.getName())) {
+                        return username + " has another event with the same name.";
+                    }
+                }
+                Event newEvent = new Event(commandInput.getName(),
+                        commandInput.getDescription(), commandInput.getDate());
+
+                events.add(newEvent);
+                return username + " has added new event successfully.";
+            }
+        }
+        return "The username " + username + " doesn't exist.";
     }
 }

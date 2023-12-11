@@ -125,6 +125,9 @@ public final class Main {
                 case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
                 case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));
                 case "removePodcast" -> outputs.add(CommandRunner.removePodcast(command));
+                case "printCurrentPage" -> outputs.add(CommandRunner.printPage(command));
+                case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
+                case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

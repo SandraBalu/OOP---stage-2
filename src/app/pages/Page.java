@@ -1,21 +1,6 @@
 package app.pages;
+public interface Page {
 
-public class Page {
-    protected String type;
+    public String displayContent();
 
-    private Page(String type) {
-        this.type = type;
-    }
-
-    public static Page getInstance(String type) {
-        return new Page(type);
-    }
-
-    public void displayPage() {
-        System.out.println(type + " Page");
-        displayContent();
-    }
-
-    protected void displayContent() {
-    }
 }

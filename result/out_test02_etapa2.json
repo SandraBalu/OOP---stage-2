@@ -34,7 +34,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 280,
-  "message" : "Like registered successfully."
+  "message" : "alice22 is offline."
 }, {
   "command" : "addUser",
   "user" : "melodymaster",
@@ -57,7 +57,7 @@
   "command" : "addUser",
   "user" : "alice22",
   "timestamp" : 380,
-  "message" : "The username alice22 has been added successfully."
+  "message" : "The username alice22 is already taken."
 }, {
   "command" : "switchConnectionStatus",
   "user" : "alice22",
@@ -96,10 +96,15 @@
   "timestamp" : 460,
   "message" : "Like registered successfully."
 }, {
+  "command" : "printCurrentPage",
+  "user" : "alice22",
+  "timestamp" : 480,
+  "message" : "Liked songs:\n\t[Melodic Mirage]\n\nFollowed playlists:\n\t[]"
+}, {
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 515,
-  "message" : "A album with the same name already exists."
+  "message" : "melodymaster has another album with the same name."
 }, {
   "command" : "showAlbums",
   "user" : "melodymaster",
@@ -115,5 +120,5 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 560,
-  "message" : "melodymaster has added new album successfully."
+  "message" : "melodymaster has the same song at least twice in this album."
 } ]

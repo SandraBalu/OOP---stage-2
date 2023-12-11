@@ -52,6 +52,11 @@
   "timestamp" : 53,
   "message" : "soundseeker has added new podcast successfully."
 }, {
+  "command" : "printCurrentPage",
+  "user" : "jack29",
+  "timestamp" : 53,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
   "command" : "addPodcast",
   "user" : "soundseeker",
   "timestamp" : 53,
@@ -115,6 +120,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "printCurrentPage",
+  "user" : "jack29",
+  "timestamp" : 90,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "playPause",
   "user" : "alice22",
@@ -203,7 +213,7 @@
   "command" : "addUser",
   "user" : "magichost",
   "timestamp" : 3247,
-  "message" : "The username magichost has been added successfully."
+  "message" : "The username magichost is already taken."
 }, {
   "command" : "follow",
   "user" : "david27",

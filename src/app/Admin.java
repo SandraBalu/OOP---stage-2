@@ -10,6 +10,7 @@ import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
+import javassist.bytecode.annotation.StringMemberValue;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -49,9 +50,20 @@ public final class Admin {
      *
      * @param userInput the user to add
      */
-    public static void addUser(UserInput userInput) {
+    public static String Adduser(UserInput userInput) {
+        String message;
+        for (User user : users) {
+            if (user.getUsername().equals(userInput.getUsername())) {
+                message = "The username " + user.getUsername() + " is already taken.";
+                return message;
+            }
+        }
         User newUser = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), userInput.getType());
+        newUser.setConnected(false);
         users.add(newUser);
+        message = "The username " + newUser.getUsername() + " has been added successfully.";
+        return message;
+
     }
 
 

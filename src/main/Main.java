@@ -111,6 +111,7 @@ public final class Main {
                         outputs.add(CommandRunner.addRemoveInPlaylist(command));
                 case "switchVisibility" -> outputs.add(CommandRunner.switchVisibility(command));
                 case "showPlaylists" -> outputs.add(CommandRunner.showPlaylists(command));
+                case "showPodcasts" -> outputs.add(CommandRunner.showPodcasts(command));
                 case "showAlbums" -> outputs.add(CommandRunner.showAlbums(command));
                 case "follow" -> outputs.add(CommandRunner.follow(command));
                 case "status" -> outputs.add(CommandRunner.status(command));
@@ -128,6 +129,8 @@ public final class Main {
                 case "printCurrentPage" -> outputs.add(CommandRunner.printPage(command));
                 case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
                 case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
+                case "addAnnouncement" -> outputs.add(CommandRunner.addAnnouncement(command));
+                case "removeAnnouncement" -> outputs.add(CommandRunner.removeAnnouncement(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

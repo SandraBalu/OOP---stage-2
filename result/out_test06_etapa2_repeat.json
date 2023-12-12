@@ -279,8 +279,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "alice22",
+  "command" : "printCurrentPage",
   "timestamp" : 1038,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
@@ -290,8 +290,8 @@
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 1040,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {
@@ -359,8 +359,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 2338,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {

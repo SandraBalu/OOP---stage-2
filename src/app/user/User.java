@@ -1,6 +1,7 @@
 package app.user;
 
 import app.Admin;
+import app.CommandRunner;
 import app.audio.Collections.*;
 import app.audio.Files.*;
 import app.audio.LibraryEntry;
@@ -18,6 +19,7 @@ import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
 import org.checkerframework.checker.units.qual.A;
+import org.checkerframework.checker.units.qual.C;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +27,7 @@ import java.util.List;
 /**
  * The type User.
  */
-public class User {
+public class User extends LibraryEntry{
     @Getter
     private String username;
     @Getter
@@ -45,8 +47,19 @@ public class User {
     private String type;
     private ArrayList<Merch> merches;
     private ArrayList<Event> events;
+    private ArrayList<Announcement> announcements;
     private boolean lastSearched;
     private boolean isConnected;
+    private Page currentPage;
+
+    public Page getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(Page currentPage) {
+        this.currentPage = currentPage;
+    }
+
 
 
     public String getUsername() {
@@ -97,6 +110,18 @@ public class User {
         this.followedPlaylists = followedPlaylists;
     }
 
+    public ArrayList<Album> getAlbums() {
+        return albums;
+    }
+
+    public ArrayList<Merch> getMerches() {
+        return merches;
+    }
+
+    public ArrayList<Event> getEvents() {
+        return events;
+    }
+
     public Player getPlayer() {
         return player;
     }
@@ -130,6 +155,13 @@ public class User {
         this.type = type;
     }
 
+    public ArrayList<Podcast> getPodcasts() {
+        return podcasts;
+    }
+
+    public ArrayList<Announcement> getAnnouncements() {
+        return announcements;
+    }
 
     /**
      * Instantiates a new User.
@@ -139,6 +171,7 @@ public class User {
      * @param city     the city
      */
     public User(final String username, final int age, final String city, final String type) {
+        super(username);
         this.username = username;
         this.age = age;
         this.city = city;
@@ -151,6 +184,7 @@ public class User {
         searchBar = new SearchBar(username);
         merches = new  ArrayList<>();
         events  = new  ArrayList<>();
+        announcements = new ArrayList<>();
         lastSearched = false;
         this.isConnected = true;
         this.type = type;
@@ -196,6 +230,10 @@ public class User {
 
         if (selected == null) {
             return "The selected ID is too high.";
+        }
+
+        if (searchBar.getLastSearchType().equals("artist") || searchBar.getLastSearchType().equals("host")) {
+            return "Successfully selected %s's page.".formatted(selected.getName());
         }
 
         return "Successfully selected %s.".formatted(selected.getName());
@@ -507,6 +545,14 @@ public class User {
         return albumOutputs;
     }
 
+    public ArrayList<PodcastOutput> showPodcasts() {
+        ArrayList<PodcastOutput> podcastOutputs = new ArrayList<>();
+        for (Podcast podcast: podcasts) {
+            podcastOutputs.add(new PodcastOutput(podcast));
+        }
+        return podcastOutputs;
+    }
+
     /**
      * Follow string.
      *
@@ -648,9 +694,20 @@ public class User {
         return username + " has added new album successfully.";
     }
 
+//    public String removeAlbum(CommandInput commandInput) {
+//        if (!type.equals("host")) {
+//            return username + "is not a host";
+//        }
+//        List<User> users = Admin.getUsers();
+//        for (User user : users) {
+//
+//        }
+//
+//    }
+
     public String addPodcast(final String name, final ArrayList<Episode> episodes) {
-        if (albums.stream().anyMatch(album -> album.getName().equals(name))) {
-            return "A podcast with the same name already exists.";
+        if (podcasts.stream().anyMatch(podcast -> podcast.getName().equals(name))) {
+            return username + " has another podcast with the same name.";
         }
         Podcast newPodcast = new Podcast(name, username, episodes);
         if (podcasts != null) {
@@ -731,5 +788,48 @@ public class User {
             }
         }
         return "The username " + username + " doesn't exist.";
+    }
+    public String addAnnouncement(CommandInput commandInput) {
+
+        List<User> users = Admin.getUsers();
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                if (!type.equals("host")) {
+                    return username + " is not an host.";
+                }
+                for (Announcement announcement : announcements) {
+                    if (announcement.getName().equals(commandInput.getName())) {
+                        return username + " has already added an announcement with this name.";
+                    }
+                }
+                Announcement newAnnouncement = new Announcement(commandInput.getName(), commandInput.getDescription());
+
+                announcements.add(newAnnouncement);
+                return username + " has successfully added new announcement.";
+            }
+        }
+        return "The username " + username + " doesn't exist.";
+    }
+
+    public String removeAnnouncement(CommandInput commandInput) {
+        if (!type.equals("host")) {
+            return username + " is not a host.";
+        } else {
+            String message = new String();
+            int index = 0;
+            for (Announcement announcement : announcements) {
+                if (announcement.getName().equals(commandInput.getName())) {
+                    message = username + " has successfully deleted the announcement.";
+                    break;
+                }
+                index++;
+            }
+            if (index < announcements.size() && message != null) {
+                Announcement announcementRemove = announcements.get(index);
+                announcements.remove(announcementRemove);
+                return message;
+            }
+            return username + " has no announcement with the given name.";
+        }
     }
 }

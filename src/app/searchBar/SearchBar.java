@@ -163,17 +163,28 @@ public final class SearchBar {
                 }
                 break;
 
+            case "artist":
+                entries = new ArrayList<>(Admin.getUsers());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+                break;
+            case "host":
+                entries = new ArrayList<>(Admin.getUsers());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+                break;
+
             default:
                 entries = new ArrayList<>();
         }
         while (entries.size() > MAX_RESULTS) {
             entries.remove(entries.size() - 1);
         }
-
-//        if (type.equals("album")) {
-//            System.out.println(entries.size());
-//        }
-
+//        System.out.println(type);
         this.results = entries;
         this.lastSearchType = type;
         return this.results;

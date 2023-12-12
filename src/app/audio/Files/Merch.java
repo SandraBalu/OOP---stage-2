@@ -6,6 +6,14 @@ public class Merch extends LibraryEntry {
     private String description;
     private int price;
 
+    public String getDescription() {
+        return description;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
     /**
      * Instantiates a new Library entry.
      *

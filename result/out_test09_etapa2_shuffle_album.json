@@ -49,8 +49,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 270,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "melodymaster" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -65,7 +65,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
@@ -124,10 +124,10 @@
   "timestamp" : 430,
   "message" : "Successfully added to playlist."
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -246,8 +246,8 @@
   "timestamp" : 2450,
   "message" : "Successfully selected I Don't Wanna Live Forever."
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 2455,
   "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[]"
 }, {
@@ -389,10 +389,10 @@
     "paused" : true
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 3900,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -437,10 +437,10 @@
   "timestamp" : 4360,
   "message" : "Shuffle function activated successfully."
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 4400,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -464,10 +464,10 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[My playlist]"
+  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "status",
   "user" : "bob35",

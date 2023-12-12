@@ -66,6 +66,21 @@ public final class Admin {
 
     }
 
+    public static String deleteUser(UserInput userInput) {
+        String message;
+        boolean isUser = false;
+        for (User user : users) {
+            if (user.getUsername().equals(userInput.getUsername())) {
+                isUser = true;
+            }
+        }
+        if (isUser == false) {
+            message = "The username " + userInput.getUsername() + " doesn't exists";
+        }
+        return null;
+
+    }
+
 
     /**
      * Sets songs.

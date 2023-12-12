@@ -225,10 +225,10 @@
   "timestamp" : 3295,
   "message" : "Please load a source before setting the repeat status."
 }, {
-  "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -304,8 +304,8 @@
   "timestamp" : 3445,
   "message" : "Please load a source before liking or unliking."
 }, {
-  "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "rhythmicrider58 is offline."
 } ]

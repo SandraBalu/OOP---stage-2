@@ -86,10 +86,10 @@
   "timestamp" : 120,
   "message" : "Please load a source before liking or unliking."
 }, {
-  "command" : "printCurrentPage",
   "user" : "melodicmind42",
+  "command" : "printCurrentPage",
   "timestamp" : 135,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -133,8 +133,8 @@
   "timestamp" : 1455,
   "message" : "Please load a source before liking or unliking."
 }, {
-  "command" : "printCurrentPage",
   "user" : "melodicmind42",
+  "command" : "printCurrentPage",
   "timestamp" : 1480,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "melodicmind42 is offline."
 } ]

@@ -694,16 +694,36 @@ public class User extends LibraryEntry{
         return username + " has added new album successfully.";
     }
 
-//    public String removeAlbum(CommandInput commandInput) {
-//        if (!type.equals("host")) {
-//            return username + "is not a host";
-//        }
-//        List<User> users = Admin.getUsers();
-//        for (User user : users) {
-//
-//        }
-//
-//    }
+    public String removeAlbum(CommandInput commandInput) {
+        if (!type.equals("artist")) {
+            return username + "is not a artist";
+        }
+        for (Album album : albums){
+            if (album.getName().equals(commandInput.getName())) {
+                //remove album
+                ArrayList<Song> songs = album.getSongs();
+                for (User user : Admin.getUsers()) {
+                    if (user.getPlayer() != null && user.getPlayer().getType() != null) {
+                        if (user.getPlayer().getType().equals("song")) {
+                            for (Song song : songs) {
+                                if (user.getPlayer().getCurrentAudioFile() != null && song.getName().equals(user.getPlayer().getCurrentAudioFile().getName())) {
+                                    return username + " can't delete this album.";
+                                }
+                            }
+
+                        }
+                        if (user.getPlayer().getType().equals("album")) {
+//                            return username + " can't delete this album.";
+                        }
+                    }
+                }
+                return "delete album";
+            }
+        }
+        //no album with the given name
+        return username + " doesn't have an album with the given name.";
+
+    }
 
     public String addPodcast(final String name, final ArrayList<Episode> episodes) {
         if (podcasts.stream().anyMatch(podcast -> podcast.getName().equals(name))) {

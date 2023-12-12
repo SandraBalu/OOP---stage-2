@@ -196,6 +196,11 @@
   "message" : "Search returned 3 results",
   "results" : [ "sonicpainter", "soundseeker21", "soundcurator" ]
 }, {
+  "command" : "changePage",
+  "user" : "soundseeker21",
+  "timestamp" : 955,
+  "message" : "invalid"
+}, {
   "command" : "repeat",
   "user" : "carol19",
   "timestamp" : 965,
@@ -220,6 +225,11 @@
   "user" : "carol19",
   "timestamp" : 7505,
   "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 7885,
+  "message" : "invalid"
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",

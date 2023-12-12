@@ -9,7 +9,7 @@ public class PageFactory {
             case "HomePage":
                 return new HomePage(user.getUsername(), user.getLikedSongs(), user.getFollowedPlaylists());
             case "LikedContent":
-                return new LikedContentPage(user.getUsername());
+                return new LikedContentPage(user.getUsername(), user.getLikedSongs(), user.getFollowedPlaylists());
             case "ArtistPage":
                 return new ArtistPage(user.getUsername(), user.getAlbums(),user.getMerches(), user.getEvents());
             case "HostPage":

@@ -130,6 +130,11 @@
   "timestamp" : 2555,
   "message" : "Please load a source before attempting to forward."
 }, {
+  "command" : "changePage",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2755,
+  "message" : "rhythmicrider58 accessed LikedContent successfully."
+}, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3000,
@@ -240,6 +245,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "changePage",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3320,
+  "message" : "invalid"
 }, {
   "command" : "repeat",
   "user" : "emily30",

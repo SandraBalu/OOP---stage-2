@@ -4893,6 +4893,11 @@
   "timestamp" : 5430,
   "message" : "Please load a source before using the shuffle function."
 }, {
+  "command" : "removeAlbum",
+  "user" : "fwebb",
+  "timestamp" : 5434,
+  "message" : "fwebbis not an artist."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5435,
@@ -4986,6 +4991,11 @@
   "user" : "bob35",
   "timestamp" : 5741,
   "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "removeAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 5745,
+  "message" : "barmstrongis not an artist."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5081,6 +5091,11 @@
   "timestamp" : 6052,
   "message" : "Please load a source before using the shuffle function."
 }, {
+  "command" : "removeAlbum",
+  "user" : "john99",
+  "timestamp" : 6056,
+  "message" : "john99is not an artist."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6057,
@@ -5174,6 +5189,11 @@
   "user" : "david27",
   "timestamp" : 6363,
   "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "removeAlbum",
+  "user" : "john99",
+  "timestamp" : 6367,
+  "message" : "john99is not an artist."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -5269,6 +5289,11 @@
   "timestamp" : 6674,
   "message" : "The loaded source is not a playlist or an album."
 }, {
+  "command" : "removeAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 6678,
+  "message" : "delete album"
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6679,
@@ -5362,6 +5387,11 @@
   "user" : "frank21",
   "timestamp" : 6985,
   "message" : "The loaded source is not a playlist or an album."
+}, {
+  "command" : "removeAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 6989,
+  "message" : "delete album"
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -5457,6 +5487,11 @@
   "timestamp" : 7296,
   "message" : "The loaded source is not a playlist or an album."
 }, {
+  "command" : "removeAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 7300,
+  "message" : "delete album"
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7301,
@@ -5550,6 +5585,11 @@
   "user" : "henry26",
   "timestamp" : 7607,
   "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "removeAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 7611,
+  "message" : "charlesgarciais not an artist."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -5645,6 +5685,11 @@
   "timestamp" : 7918,
   "message" : "The loaded source is not a playlist or an album."
 }, {
+  "command" : "removeAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 7922,
+  "message" : "delete album"
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7923,
@@ -5738,6 +5783,11 @@
   "user" : "jack29",
   "timestamp" : 8229,
   "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "removeAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 8233,
+  "message" : "matthewporteris not an artist."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -8752,6 +8802,11 @@
     "paused" : false
   }
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10280,
+  "message" : "alice22 accessed LikedContent successfully."
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10280,
@@ -8798,10 +8853,20 @@
   "timestamp" : 10280,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10280,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10280,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10290,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -8849,10 +8914,20 @@
   "timestamp" : 10290,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10290,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10290,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10300,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -8900,10 +8975,20 @@
   "timestamp" : 10300,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10300,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10300,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10310,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -8951,10 +9036,20 @@
   "timestamp" : 10310,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10310,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10310,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10320,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -9002,10 +9097,20 @@
   "timestamp" : 10320,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10320,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10320,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10330,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9053,10 +9158,20 @@
   "timestamp" : 10330,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10330,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10330,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10340,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9104,10 +9219,20 @@
   "timestamp" : 10340,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10340,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10340,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10350,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9155,10 +9280,20 @@
   "timestamp" : 10350,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10350,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10350,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10360,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9206,10 +9341,20 @@
   "timestamp" : 10360,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10360,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10360,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10370,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -9257,11 +9402,21 @@
   "timestamp" : 10370,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10370,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10380,
+  "message" : "alice22 accessed LikedContent successfully."
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10380,
@@ -9308,10 +9463,20 @@
   "timestamp" : 10380,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10380,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10380,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10390,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9359,10 +9524,20 @@
   "timestamp" : 10390,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10390,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10390,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10400,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9410,10 +9585,20 @@
   "timestamp" : 10400,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10400,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10400,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10410,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9461,11 +9646,21 @@
   "timestamp" : 10410,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10410,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10410,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10420,
+  "message" : "emily30 accessed LikedContent successfully."
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10420,
@@ -9512,10 +9707,20 @@
   "timestamp" : 10420,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10420,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10420,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10430,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9563,10 +9768,20 @@
   "timestamp" : 10430,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10430,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10430,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10440,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9614,10 +9829,20 @@
   "timestamp" : 10440,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10440,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10440,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10450,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9665,10 +9890,20 @@
   "timestamp" : 10450,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10450,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10450,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10460,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9716,10 +9951,20 @@
   "timestamp" : 10460,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10460,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10460,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10470,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -9767,11 +10012,21 @@
   "timestamp" : 10470,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10470,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10480,
+  "message" : "alice22 accessed LikedContent successfully."
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10480,
@@ -9818,10 +10073,20 @@
   "timestamp" : 10480,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10480,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10480,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10490,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9869,10 +10134,20 @@
   "timestamp" : 10490,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10490,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10490,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10500,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9920,10 +10195,20 @@
   "timestamp" : 10500,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10500,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10500,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10510,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9971,10 +10256,20 @@
   "timestamp" : 10510,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10510,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10510,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10520,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -10022,11 +10317,21 @@
   "timestamp" : 10520,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10520,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10520,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10530,
+  "message" : "frank21 accessed LikedContent successfully."
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10530,
@@ -10073,10 +10378,20 @@
   "timestamp" : 10530,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10530,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10530,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10540,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -10124,10 +10439,20 @@
   "timestamp" : 10540,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10540,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10540,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10550,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10175,10 +10500,20 @@
   "timestamp" : 10550,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10550,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10550,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10560,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10226,10 +10561,20 @@
   "timestamp" : 10560,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10560,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10560,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10570,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10277,10 +10622,20 @@
   "timestamp" : 10570,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10570,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10580,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10328,10 +10683,20 @@
   "timestamp" : 10580,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10580,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10580,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10590,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10379,10 +10744,20 @@
   "timestamp" : 10590,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10590,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10590,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10600,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10430,10 +10805,20 @@
   "timestamp" : 10600,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10600,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10600,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10610,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10481,11 +10866,21 @@
   "timestamp" : 10610,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10610,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10610,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10620,
+  "message" : "emily30 accessed LikedContent successfully."
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10620,
@@ -10532,10 +10927,20 @@
   "timestamp" : 10620,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10620,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10620,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10630,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10583,10 +10988,20 @@
   "timestamp" : 10630,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10630,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10630,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10640,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -10634,10 +11049,20 @@
   "timestamp" : 10640,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10640,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10640,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10650,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10685,10 +11110,20 @@
   "timestamp" : 10650,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10650,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10650,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10660,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10736,10 +11171,20 @@
   "timestamp" : 10660,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10660,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10660,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10670,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10787,10 +11232,20 @@
   "timestamp" : 10670,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10670,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10680,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10838,11 +11293,21 @@
   "timestamp" : 10680,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10680,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10680,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10690,
+  "message" : "bob35 accessed LikedContent successfully."
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10690,
@@ -10889,10 +11354,20 @@
   "timestamp" : 10690,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10690,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10690,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10700,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10940,10 +11415,20 @@
   "timestamp" : 10700,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10700,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10700,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10710,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10991,10 +11476,20 @@
   "timestamp" : 10710,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10710,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10710,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10720,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -11042,10 +11537,20 @@
   "timestamp" : 10720,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10720,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10720,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10730,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11093,10 +11598,20 @@
   "timestamp" : 10730,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10730,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10730,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10740,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11144,10 +11659,20 @@
   "timestamp" : 10740,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10740,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10740,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10750,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11195,10 +11720,20 @@
   "timestamp" : 10750,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10750,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10750,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10760,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11246,10 +11781,20 @@
   "timestamp" : 10760,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10760,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10760,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10770,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11297,10 +11842,20 @@
   "timestamp" : 10770,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10770,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10780,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11348,10 +11903,20 @@
   "timestamp" : 10780,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10780,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10780,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10790,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11399,10 +11964,20 @@
   "timestamp" : 10790,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10790,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10790,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10800,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -11450,10 +12025,20 @@
   "timestamp" : 10800,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10800,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10800,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10810,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -11501,10 +12086,20 @@
   "timestamp" : 10810,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10810,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10810,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10820,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -11552,10 +12147,20 @@
   "timestamp" : 10820,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10820,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10820,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10830,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11603,10 +12208,20 @@
   "timestamp" : 10830,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10830,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10830,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10840,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11654,10 +12269,20 @@
   "timestamp" : 10840,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10840,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10840,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10850,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11705,10 +12330,20 @@
   "timestamp" : 10850,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10850,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10850,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10860,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11756,10 +12391,20 @@
   "timestamp" : 10860,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10860,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10860,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10870,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11807,11 +12452,21 @@
   "timestamp" : 10870,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10870,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10880,
+  "message" : "alice22 accessed LikedContent successfully."
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10880,
@@ -11858,10 +12513,20 @@
   "timestamp" : 10880,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10880,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10880,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10890,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11909,10 +12574,20 @@
   "timestamp" : 10890,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10890,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10890,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10900,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -11960,10 +12635,20 @@
   "timestamp" : 10900,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 10900,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10900,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10910,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12011,10 +12696,20 @@
   "timestamp" : 10910,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 10910,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10910,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10920,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12062,10 +12757,20 @@
   "timestamp" : 10920,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 10920,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10920,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10930,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12113,10 +12818,20 @@
   "timestamp" : 10930,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 10930,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10930,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10940,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12164,10 +12879,20 @@
   "timestamp" : 10940,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 10940,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10940,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10950,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12215,10 +12940,20 @@
   "timestamp" : 10950,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 10950,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10950,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10960,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12266,10 +13001,20 @@
   "timestamp" : 10960,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 10960,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10960,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10970,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12317,10 +13062,20 @@
   "timestamp" : 10970,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 10970,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10980,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12368,10 +13123,20 @@
   "timestamp" : 10980,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 10980,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 10980,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10990,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12419,10 +13184,20 @@
   "timestamp" : 10990,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 10990,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10990,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11000,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12470,10 +13245,20 @@
   "timestamp" : 11000,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11000,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11000,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11010,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12521,10 +13306,20 @@
   "timestamp" : 11010,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11010,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11010,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11020,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12572,10 +13367,20 @@
   "timestamp" : 11020,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11020,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11020,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11030,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12623,10 +13428,20 @@
   "timestamp" : 11030,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11030,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11030,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11040,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12674,10 +13489,20 @@
   "timestamp" : 11040,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11040,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11040,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11050,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12725,10 +13550,20 @@
   "timestamp" : 11050,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11050,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11050,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11060,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12776,10 +13611,20 @@
   "timestamp" : 11060,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11060,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11060,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11070,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12827,10 +13672,20 @@
   "timestamp" : 11070,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11070,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11080,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12878,10 +13733,20 @@
   "timestamp" : 11080,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11080,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11080,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11090,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12929,10 +13794,20 @@
   "timestamp" : 11090,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11090,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11090,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11100,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12980,11 +13855,21 @@
   "timestamp" : 11100,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11100,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11100,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11110,
+  "message" : "david27 accessed LikedContent successfully."
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11110,
@@ -13031,10 +13916,20 @@
   "timestamp" : 11110,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11110,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11110,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11120,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -13082,10 +13977,20 @@
   "timestamp" : 11120,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11120,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11120,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11130,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13133,10 +14038,20 @@
   "timestamp" : 11130,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11130,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11130,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11140,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13184,10 +14099,20 @@
   "timestamp" : 11140,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11140,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11140,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11150,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13235,10 +14160,20 @@
   "timestamp" : 11150,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11150,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11150,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11160,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13286,10 +14221,20 @@
   "timestamp" : 11160,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11160,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11160,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11170,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13337,10 +14282,20 @@
   "timestamp" : 11170,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11170,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11180,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13388,10 +14343,20 @@
   "timestamp" : 11180,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11180,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11180,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11190,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13439,10 +14404,20 @@
   "timestamp" : 11190,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11190,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11190,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11200,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13490,10 +14465,20 @@
   "timestamp" : 11200,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11200,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11200,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11210,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13541,11 +14526,21 @@
   "timestamp" : 11210,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11210,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11210,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11220,
+  "message" : "emily30 accessed LikedContent successfully."
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11220,
@@ -13592,10 +14587,20 @@
   "timestamp" : 11220,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11220,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11220,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11230,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13643,10 +14648,20 @@
   "timestamp" : 11230,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11230,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11230,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11240,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13694,10 +14709,20 @@
   "timestamp" : 11240,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11240,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11240,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11250,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13745,10 +14770,20 @@
   "timestamp" : 11250,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11250,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11250,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11260,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13796,10 +14831,20 @@
   "timestamp" : 11260,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11260,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11260,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11270,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13847,10 +14892,20 @@
   "timestamp" : 11270,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11270,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11280,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13898,10 +14953,20 @@
   "timestamp" : 11280,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11280,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11280,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11290,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13949,10 +15014,20 @@
   "timestamp" : 11290,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11290,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11290,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11300,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -14000,10 +15075,20 @@
   "timestamp" : 11300,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11300,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11300,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11310,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14051,10 +15136,20 @@
   "timestamp" : 11310,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11310,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11310,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11320,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14102,10 +15197,20 @@
   "timestamp" : 11320,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11320,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11320,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11330,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14153,10 +15258,20 @@
   "timestamp" : 11330,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11330,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11330,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11340,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14204,10 +15319,20 @@
   "timestamp" : 11340,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11340,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11340,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11350,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14255,10 +15380,20 @@
   "timestamp" : 11350,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11350,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11350,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11360,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14306,10 +15441,20 @@
   "timestamp" : 11360,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11360,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11360,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11370,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -14357,10 +15502,20 @@
   "timestamp" : 11370,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11370,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11380,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14408,10 +15563,20 @@
   "timestamp" : 11380,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11380,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11380,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11390,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -14459,10 +15624,20 @@
   "timestamp" : 11390,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11390,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11390,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11400,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -14510,10 +15685,20 @@
   "timestamp" : 11400,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11400,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11400,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11410,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14561,10 +15746,20 @@
   "timestamp" : 11410,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11410,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11410,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11420,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14612,11 +15807,21 @@
   "timestamp" : 11420,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11420,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11420,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11430,
+  "message" : "frank21 accessed LikedContent successfully."
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11430,
@@ -14663,10 +15868,20 @@
   "timestamp" : 11430,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11430,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11430,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11440,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14714,10 +15929,20 @@
   "timestamp" : 11440,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11440,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11440,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11450,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14765,10 +15990,20 @@
   "timestamp" : 11450,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11450,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11450,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11460,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14816,11 +16051,21 @@
   "timestamp" : 11460,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11460,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11460,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11470,
+  "message" : "jack29 accessed LikedContent successfully."
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
@@ -14867,10 +16112,20 @@
   "timestamp" : 11470,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11470,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11480,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14918,10 +16173,20 @@
   "timestamp" : 11480,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11480,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11480,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11490,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -14969,10 +16234,20 @@
   "timestamp" : 11490,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11490,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11490,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11500,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15020,10 +16295,20 @@
   "timestamp" : 11500,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11500,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11500,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11510,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15071,10 +16356,20 @@
   "timestamp" : 11510,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11510,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11510,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11520,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15122,10 +16417,20 @@
   "timestamp" : 11520,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11520,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11520,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11530,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15173,10 +16478,20 @@
   "timestamp" : 11530,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11530,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11530,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11540,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15224,10 +16539,20 @@
   "timestamp" : 11540,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11540,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11540,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11550,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -15275,10 +16600,20 @@
   "timestamp" : 11550,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11550,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11550,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11560,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15326,10 +16661,20 @@
   "timestamp" : 11560,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11560,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11560,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11570,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15377,10 +16722,20 @@
   "timestamp" : 11570,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11570,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11580,
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15428,10 +16783,20 @@
   "timestamp" : 11580,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11580,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11580,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11590,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15479,10 +16844,20 @@
   "timestamp" : 11590,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11590,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11590,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11600,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15530,10 +16905,20 @@
   "timestamp" : 11600,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11600,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11600,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11610,
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15581,10 +16966,20 @@
   "timestamp" : 11610,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11610,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11610,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11620,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15632,10 +17027,20 @@
   "timestamp" : 11620,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11620,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11620,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11630,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15683,10 +17088,20 @@
   "timestamp" : 11630,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11630,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11630,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11640,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15734,10 +17149,20 @@
   "timestamp" : 11640,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11640,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11640,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11650,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -15785,10 +17210,20 @@
   "timestamp" : 11650,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11650,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11650,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11660,
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15836,10 +17271,20 @@
   "timestamp" : 11660,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11660,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11660,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11670,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15887,11 +17332,21 @@
   "timestamp" : 11670,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11670,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11680,
+  "message" : "alice22 accessed LikedContent successfully."
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11680,
@@ -15938,10 +17393,20 @@
   "timestamp" : 11680,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11680,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11680,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11690,
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15989,10 +17454,20 @@
   "timestamp" : 11690,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11690,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11690,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11700,
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -16040,11 +17515,21 @@
   "timestamp" : 11700,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11700,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11700,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11710,
+  "message" : "david27 accessed LikedContent successfully."
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11710,
@@ -16091,10 +17576,20 @@
   "timestamp" : 11710,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11710,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11710,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11720,
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -16142,10 +17637,20 @@
   "timestamp" : 11720,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11720,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11720,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11730,
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16193,10 +17698,20 @@
   "timestamp" : 11730,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11730,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11730,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11740,
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -16244,10 +17759,20 @@
   "timestamp" : 11740,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11740,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11740,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11750,
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16295,11 +17820,21 @@
   "timestamp" : 11750,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11750,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11750,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11760,
+  "message" : "irene33 accessed LikedContent successfully."
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11760,
@@ -16346,10 +17881,20 @@
   "timestamp" : 11760,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11760,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11760,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11770,
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16396,6 +17941,11 @@
   "command" : "printCurrentPage",
   "timestamp" : 11770,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11770,
+  "message" : "invalid"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16428,10 +17978,15 @@
   "timestamp" : 11770,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11770,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16459,10 +18014,15 @@
   "timestamp" : 11780,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11780,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11780,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16490,10 +18050,15 @@
   "timestamp" : 11790,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11790,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11790,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16521,10 +18086,15 @@
   "timestamp" : 11800,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11800,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11800,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16552,10 +18122,15 @@
   "timestamp" : 11810,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11810,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11810,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16583,10 +18158,15 @@
   "timestamp" : 11820,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11820,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11820,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16614,10 +18194,15 @@
   "timestamp" : 11830,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11830,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11830,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16645,10 +18230,15 @@
   "timestamp" : 11840,
   "message" : "Albums:\n\t[Teen Technology, Electric View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11840,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11840,
-  "message" : "Albums:\n\t[Teen Technology, Electric View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16676,10 +18266,15 @@
   "timestamp" : 11850,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11850,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11850,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16707,10 +18302,15 @@
   "timestamp" : 11860,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11860,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11860,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16738,10 +18338,15 @@
   "timestamp" : 11870,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11870,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11870,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16769,10 +18374,15 @@
   "timestamp" : 11880,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11880,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11880,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16800,10 +18410,15 @@
   "timestamp" : 11890,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11890,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11890,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16831,10 +18446,15 @@
   "timestamp" : 11900,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 11900,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11900,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16862,10 +18482,15 @@
   "timestamp" : 11910,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 11910,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11910,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16893,10 +18518,15 @@
   "timestamp" : 11920,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 11920,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11920,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16924,10 +18554,15 @@
   "timestamp" : 11930,
   "message" : "Albums:\n\t[Breezy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 11930,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11930,
-  "message" : "Albums:\n\t[Breezy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16955,10 +18590,15 @@
   "timestamp" : 11940,
   "message" : "Albums:\n\t[Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 11940,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11940,
-  "message" : "Albums:\n\t[Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16986,10 +18626,15 @@
   "timestamp" : 11950,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 11950,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11950,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17017,10 +18662,15 @@
   "timestamp" : 11960,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 11960,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11960,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -17048,10 +18698,15 @@
   "timestamp" : 11970,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 11970,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11970,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17079,10 +18734,15 @@
   "timestamp" : 11980,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 11980,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11980,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17110,10 +18770,15 @@
   "timestamp" : 11990,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 11990,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11990,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -17141,10 +18806,15 @@
   "timestamp" : 12000,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12000,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12000,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17172,10 +18842,15 @@
   "timestamp" : 12010,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12010,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12010,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17203,10 +18878,15 @@
   "timestamp" : 12020,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12020,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12020,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17234,10 +18914,15 @@
   "timestamp" : 12030,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12030,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12030,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17265,10 +18950,15 @@
   "timestamp" : 12040,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12040,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12040,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17296,10 +18986,15 @@
   "timestamp" : 12050,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12050,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12050,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17327,10 +19022,15 @@
   "timestamp" : 12060,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12060,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12060,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -17358,10 +19058,15 @@
   "timestamp" : 12070,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12070,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12070,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17389,10 +19094,15 @@
   "timestamp" : 12080,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12080,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12080,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17420,10 +19130,15 @@
   "timestamp" : 12090,
   "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12090,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12090,
-  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -17451,10 +19166,15 @@
   "timestamp" : 12100,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12100,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12100,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17482,10 +19202,15 @@
   "timestamp" : 12110,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12110,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12110,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17513,10 +19238,15 @@
   "timestamp" : 12120,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12120,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12120,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17544,10 +19274,15 @@
   "timestamp" : 12130,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12130,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12130,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17575,10 +19310,15 @@
   "timestamp" : 12140,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12140,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12140,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17606,10 +19346,15 @@
   "timestamp" : 12150,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12150,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12150,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17637,10 +19382,15 @@
   "timestamp" : 12160,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12160,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12160,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -17668,10 +19418,15 @@
   "timestamp" : 12170,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12170,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12170,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17699,10 +19454,15 @@
   "timestamp" : 12180,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12180,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12180,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17730,10 +19490,15 @@
   "timestamp" : 12190,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12190,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12190,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -17761,10 +19526,15 @@
   "timestamp" : 12200,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12200,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12200,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17792,10 +19562,15 @@
   "timestamp" : 12210,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12210,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12210,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17823,10 +19598,15 @@
   "timestamp" : 12220,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12220,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12220,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17854,10 +19634,15 @@
   "timestamp" : 12230,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12230,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12230,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17885,10 +19670,15 @@
   "timestamp" : 12240,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12240,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12240,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17916,10 +19706,15 @@
   "timestamp" : 12250,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12250,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12250,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17947,10 +19742,15 @@
   "timestamp" : 12260,
   "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12260,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12260,
-  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -17978,10 +19778,15 @@
   "timestamp" : 12270,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12270,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12270,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18009,10 +19814,15 @@
   "timestamp" : 12280,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12280,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12280,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -18040,10 +19850,15 @@
   "timestamp" : 12290,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12290,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12290,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -18071,10 +19886,15 @@
   "timestamp" : 12300,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12300,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12300,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -18102,10 +19922,15 @@
   "timestamp" : 12310,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12310,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12310,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18133,10 +19958,15 @@
   "timestamp" : 12320,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12320,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12320,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18164,10 +19994,15 @@
   "timestamp" : 12330,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12330,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12330,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18195,10 +20030,15 @@
   "timestamp" : 12340,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12340,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12340,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -18226,10 +20066,15 @@
   "timestamp" : 12350,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12350,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12350,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18257,10 +20102,15 @@
   "timestamp" : 12360,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12360,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12360,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -18288,10 +20138,15 @@
   "timestamp" : 12370,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12370,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12370,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18319,10 +20174,15 @@
   "timestamp" : 12380,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12380,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12380,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -18350,10 +20210,15 @@
   "timestamp" : 12390,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12390,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12390,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -18381,10 +20246,15 @@
   "timestamp" : 12400,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12400,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12400,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -18412,10 +20282,15 @@
   "timestamp" : 12410,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12410,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12410,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18443,10 +20318,15 @@
   "timestamp" : 12420,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12420,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12420,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18474,10 +20354,15 @@
   "timestamp" : 12430,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12430,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12430,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18505,10 +20390,15 @@
   "timestamp" : 12440,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12440,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12440,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -18536,10 +20426,15 @@
   "timestamp" : 12450,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12450,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12450,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18567,10 +20462,15 @@
   "timestamp" : 12460,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12460,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12460,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -18598,10 +20498,15 @@
   "timestamp" : 12470,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12470,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12470,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18629,10 +20534,15 @@
   "timestamp" : 12480,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12480,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12480,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -18660,10 +20570,15 @@
   "timestamp" : 12490,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12490,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12490,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -18691,10 +20606,15 @@
   "timestamp" : 12500,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12500,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12500,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -18722,10 +20642,15 @@
   "timestamp" : 12510,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12510,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12510,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18753,10 +20678,15 @@
   "timestamp" : 12520,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12520,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12520,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18784,10 +20714,15 @@
   "timestamp" : 12530,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12530,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12530,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18815,10 +20750,15 @@
   "timestamp" : 12540,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12540,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12540,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -18846,10 +20786,15 @@
   "timestamp" : 12550,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12550,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12550,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18877,10 +20822,15 @@
   "timestamp" : 12560,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12560,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12560,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -18908,10 +20858,15 @@
   "timestamp" : 12570,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12570,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12570,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18939,10 +20894,15 @@
   "timestamp" : 12580,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12580,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12580,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -18970,10 +20930,15 @@
   "timestamp" : 12590,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12590,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12590,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -19001,10 +20966,15 @@
   "timestamp" : 12600,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12600,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12600,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19032,10 +21002,15 @@
   "timestamp" : 12610,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12610,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12610,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19063,10 +21038,15 @@
   "timestamp" : 12620,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12620,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12620,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19094,10 +21074,15 @@
   "timestamp" : 12630,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12630,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12630,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19125,10 +21110,15 @@
   "timestamp" : 12640,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12640,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12640,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -19156,10 +21146,15 @@
   "timestamp" : 12650,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12650,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12650,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19187,10 +21182,15 @@
   "timestamp" : 12660,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12660,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12660,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -19218,10 +21218,15 @@
   "timestamp" : 12670,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12670,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12670,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -19249,10 +21254,15 @@
   "timestamp" : 12680,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12680,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12680,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19280,10 +21290,15 @@
   "timestamp" : 12690,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12690,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12690,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -19311,10 +21326,15 @@
   "timestamp" : 12700,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12700,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12700,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19342,10 +21362,15 @@
   "timestamp" : 12710,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12710,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12710,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19373,10 +21398,15 @@
   "timestamp" : 12720,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12720,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12720,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19404,10 +21434,15 @@
   "timestamp" : 12730,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12730,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12730,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19435,10 +21470,15 @@
   "timestamp" : 12740,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12740,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12740,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -19466,10 +21506,15 @@
   "timestamp" : 12750,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12750,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12750,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19497,10 +21542,15 @@
   "timestamp" : 12760,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12760,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12760,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -19528,10 +21578,15 @@
   "timestamp" : 12770,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12770,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12770,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -19559,10 +21614,15 @@
   "timestamp" : 12780,
   "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12780,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12780,
-  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19590,10 +21650,15 @@
   "timestamp" : 12790,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12790,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12790,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -19621,10 +21686,15 @@
   "timestamp" : 12800,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12800,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12800,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19652,10 +21722,15 @@
   "timestamp" : 12810,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12810,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12810,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19683,10 +21758,15 @@
   "timestamp" : 12820,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12820,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12820,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19714,10 +21794,15 @@
   "timestamp" : 12830,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12830,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12830,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19745,10 +21830,15 @@
   "timestamp" : 12840,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12840,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12840,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -19776,10 +21866,15 @@
   "timestamp" : 12850,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12850,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12850,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19807,10 +21902,15 @@
   "timestamp" : 12860,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12860,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12860,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -19838,10 +21938,15 @@
   "timestamp" : 12870,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12870,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12870,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -19869,10 +21974,15 @@
   "timestamp" : 12880,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12880,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12880,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19900,10 +22010,15 @@
   "timestamp" : 12890,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12890,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12890,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -19931,10 +22046,15 @@
   "timestamp" : 12900,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 12900,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12900,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19962,10 +22082,15 @@
   "timestamp" : 12910,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 12910,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12910,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19993,10 +22118,15 @@
   "timestamp" : 12920,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 12920,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12920,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20024,10 +22154,15 @@
   "timestamp" : 12930,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 12930,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12930,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20055,10 +22190,15 @@
   "timestamp" : 12940,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 12940,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12940,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -20086,10 +22226,15 @@
   "timestamp" : 12950,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 12950,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12950,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20117,10 +22262,15 @@
   "timestamp" : 12960,
   "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 12960,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12960,
-  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20148,10 +22298,15 @@
   "timestamp" : 12970,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 12970,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12970,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -20179,10 +22334,15 @@
   "timestamp" : 12980,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 12980,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12980,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20210,10 +22370,15 @@
   "timestamp" : 12990,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 12990,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12990,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -20241,10 +22406,15 @@
   "timestamp" : 13000,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 13000,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13000,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -20272,10 +22442,15 @@
   "timestamp" : 13010,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 13010,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13010,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20303,10 +22478,15 @@
   "timestamp" : 13020,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 13020,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13020,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20334,10 +22514,15 @@
   "timestamp" : 13030,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 13030,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13030,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20365,10 +22550,15 @@
   "timestamp" : 13040,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 13040,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13040,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -20396,10 +22586,15 @@
   "timestamp" : 13050,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 13050,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13050,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20427,10 +22622,15 @@
   "timestamp" : 13060,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 13060,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13060,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20458,10 +22658,15 @@
   "timestamp" : 13070,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 13070,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13070,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -20489,10 +22694,15 @@
   "timestamp" : 13080,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 13080,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13080,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20520,10 +22730,15 @@
   "timestamp" : 13090,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 13090,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13090,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -20551,10 +22766,15 @@
   "timestamp" : 13100,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 13100,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13100,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -20582,10 +22802,15 @@
   "timestamp" : 13110,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 13110,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13110,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20613,10 +22838,15 @@
   "timestamp" : 13120,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 13120,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13120,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20644,10 +22874,15 @@
   "timestamp" : 13130,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 13130,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13130,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20675,10 +22910,15 @@
   "timestamp" : 13140,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 13140,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13140,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -20706,10 +22946,15 @@
   "timestamp" : 13150,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 13150,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13150,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20737,10 +22982,15 @@
   "timestamp" : 13160,
   "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 13160,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13160,
-  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20768,10 +23018,15 @@
   "timestamp" : 13170,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "alice22",
+  "timestamp" : 13170,
+  "message" : "invalid"
+}, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13170,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -20799,10 +23054,15 @@
   "timestamp" : 13180,
   "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "bob35",
+  "timestamp" : 13180,
+  "message" : "invalid"
+}, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13180,
-  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20830,10 +23090,15 @@
   "timestamp" : 13190,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 13190,
+  "message" : "invalid"
+}, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13190,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -20861,10 +23126,15 @@
   "timestamp" : 13200,
   "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 13200,
+  "message" : "invalid"
+}, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13200,
-  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -20892,10 +23162,15 @@
   "timestamp" : 13210,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "emily30",
+  "timestamp" : 13210,
+  "message" : "invalid"
+}, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13210,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20923,10 +23198,15 @@
   "timestamp" : 13220,
   "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View, Teen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "frank21",
+  "timestamp" : 13220,
+  "message" : "invalid"
+}, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13220,
-  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View, Teen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20954,10 +23234,15 @@
   "timestamp" : 13230,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "grace25",
+  "timestamp" : 13230,
+  "message" : "invalid"
+}, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13230,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20985,10 +23270,15 @@
   "timestamp" : 13240,
   "message" : "Albums:\n\t[Groovy Hood, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "henry26",
+  "timestamp" : 13240,
+  "message" : "invalid"
+}, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13240,
-  "message" : "Albums:\n\t[Groovy Hood, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -21016,10 +23306,15 @@
   "timestamp" : 13250,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "irene33",
+  "timestamp" : 13250,
+  "message" : "invalid"
+}, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13250,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -21047,10 +23342,15 @@
   "timestamp" : 13260,
   "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
+  "command" : "changePage",
+  "user" : "jack29",
+  "timestamp" : 13260,
+  "message" : "invalid"
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13260,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",

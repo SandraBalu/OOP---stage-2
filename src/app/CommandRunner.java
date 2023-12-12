@@ -643,31 +643,31 @@ public final class CommandRunner {
         objectNode.put("message", message);
         return objectNode;
     }
-//
-//    public static ObjectNode removeAlbum(final CommandInput commandInput) {
-//
-//        ObjectNode objectNode = objectMapper.createObjectNode();
-//        objectNode.put("command", commandInput.getCommand());
-//        objectNode.put("user", commandInput.getUsername());
-//        objectNode.put("timestamp", commandInput.getTimestamp());
-//        String message;
-//        if (Admin.getUser(commandInput.getUsername()) != null) {
-//            User user = Admin.getUser(commandInput.getUsername());
-//
-//            if (user.getType().equals("artist")) {
-//                message = user.removeAlbum(commandInput);
-//
-//            } else {
-//                message = user.getUsername() + "is not an artist.";
-//            }
-//
-//        } else {
-//            message = "The username " + commandInput.getUsername() + " doesn't exist.";
-//        }
-//
-//        objectNode.put("message", message);
-//        return objectNode;
-//    }
+
+    public static ObjectNode removeAlbum(final CommandInput commandInput) {
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message;
+        if (Admin.getUser(commandInput.getUsername()) != null) {
+            User user = Admin.getUser(commandInput.getUsername());
+
+            if (user.getType().equals("artist")) {
+                message = user.removeAlbum(commandInput);
+
+            } else {
+                message = user.getUsername() + "is not an artist.";
+            }
+
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        objectNode.put("message", message);
+        return objectNode;
+    }
 
     public static ObjectNode addPodcast(final CommandInput commandInput) {
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -760,8 +760,13 @@ public final class CommandRunner {
         if (user == null) {
             return null;
         }
+        String message;
         user.setCurrentPage(pageFactory.getPage(commandInput.getNextPage(), user));
-        String message = user.getCurrentPage().switchMessage();
+        if (user.getCurrentPage() != null) {
+            message = user.getCurrentPage().switchMessage();
+        } else {
+            message = "invalid";
+        }
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
         objectNode.put("user", commandInput.getUsername());

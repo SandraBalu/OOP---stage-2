@@ -3,6 +3,7 @@ package app;
 import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
+import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.player.Player;
@@ -119,6 +120,7 @@ public final class Admin {
             }
         } while (!ok);
 
+        // sterge melodiile si de la ceilalti useri
         for (User user : users) {
             ArrayList<Song> userSongs = user.getLikedSongs();
             if (userSongs != null) {
@@ -138,14 +140,85 @@ public final class Admin {
         return artist.getUsername() + " was successfully deleted.";
     }
 
+    public static String removeUser(User user) {
+        for (User user1 : users) {
+            Player currentPlayer = user1.getPlayer();
+            if (currentPlayer != null && currentPlayer.getType() != null) {
+                if (currentPlayer.getType().equals("playlist")) {
+                    String currentPlaylist = user1.getSearchBar().getLastSelected().getName();
+                    for (Playlist playlist : user.getPlaylists()) {
+                        if (playlist.getName().equals(currentPlaylist)) {
+                            return "can't delete";
+                        }
+                    }
+                }
+            }
+        }
+        int index = 0; boolean ok = true;
+
+        for (User user1 : users) {
+            ArrayList<Playlist> user1Playlists = user1.getFollowedPlaylists();
+            if (user1Playlists != null) {
+                index = 0;
+                while (index < user1Playlists.size()) {
+                    Playlist playlist  = user1Playlists.get(index);
+                    if (playlist.getOwner().equals(user.getUsername())) {
+                        user1Playlists.remove(index);
+                    } else {
+                        index++;
+                    }
+                }
+            }
+            user1.setFollowedPlaylists(user1Playlists);
+        }
+
+        for (User user1 : users) {
+            if (user1.getPlaylists() != null) {
+                ArrayList<Playlist> playlists = user1.getPlaylists();
+                for (Playlist playlist : playlists) {
+                    if (user.getFollowedPlaylists().contains(playlist)) {
+                        playlist.setFollowers(playlist.getFollowers() - 1);
+                    }
+                }
+                user1.setFollowedPlaylists(playlists);
+            }
+        }
+
+        users.remove(user);
+        return user.getUsername() + " was successfully deleted.";
+    }
+
+    public static String removeHost(User hostUser) {
+        for (User user : users) {
+            if (user.getPlayer()!= null && user.getPlayer().getType()!= null) {
+                Player currentPlayer = user.getPlayer();
+                if (currentPlayer.getCurrentAudioFile() != null &&
+                        currentPlayer.getType().equals("podcast"))  {
+                        Episode episode = (Episode) currentPlayer.getCurrentAudioFile();
+                        for (Podcast podcast : hostUser.getPodcasts()) {
+                            if (podcast.getEpisodes().contains(episode)) {
+                                return hostUser.getUsername() + " can't be deleted.";
+                            }
+                        }
+                }
+            }
+            if (user.getPageType() != null && user.getPageType().equals("HostPage")) {
+                if (user.getSearchBar().getLastSelected().getName().equals(hostUser.getUsername())) {
+                    return hostUser.getUsername() + " can't be deleted.";
+                }
+            }
+        }
+        return "delete";
+    }
+
     public static String deleteUser(User user) {
 
         if (user.getType().equals("normal")) {
-            return "delete normal user";
+            return removeUser(user);
         } else if (user.getType().equals("artist")) {
             return deleteArtist(user);
         } else if (user.getType().equals("host")) {
-            return "delete host";
+            return removeHost(user);
         }
         return "no delete";
     }

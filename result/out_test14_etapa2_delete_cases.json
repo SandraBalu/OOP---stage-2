@@ -213,7 +213,7 @@
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 930,
-  "message" : "delete host"
+  "message" : "audiosage can't be deleted."
 }, {
   "command" : "changePage",
   "user" : "soundseeker21",
@@ -243,7 +243,7 @@
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 1100,
-  "message" : "delete host"
+  "message" : "delete"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -258,7 +258,7 @@
   "command" : "deleteUser",
   "user" : "musicmaven",
   "timestamp" : 6900,
-  "message" : "delete host"
+  "message" : "musicmaven can't be deleted."
 }, {
   "command" : "repeat",
   "user" : "carol19",

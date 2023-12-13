@@ -761,11 +761,11 @@ public class User extends LibraryEntry{
                    }
                     podcasts.remove(podcast);
                     Admin.removePodcast(name);
-                    return "podcast removed succesfuly";
+                    return username + " deleted the podcast successfully.";
 
             }
         }
-        return "the username doesn't has this podcast";
+        return username + " doesn't have a podcast with the given name.";
     }
 
 
@@ -824,7 +824,7 @@ public class User extends LibraryEntry{
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 if (!type.equals("host")) {
-                    return username + " is not an host.";
+                    return username + " is not a host.";
                 }
                 for (Announcement announcement : announcements) {
                     if (announcement.getName().equals(commandInput.getName())) {

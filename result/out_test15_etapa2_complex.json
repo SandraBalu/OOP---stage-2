@@ -4918,7 +4918,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5419,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "alice22",
@@ -5116,7 +5116,12 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6041,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+}, {
+  "command" : "deleteUser",
+  "user" : "cbutler",
+  "timestamp" : 6046,
+  "message" : "cbutler can't be deleted."
 }, {
   "command" : "shuffle",
   "user" : "carol19",
@@ -5314,7 +5319,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6663,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "emily30",
@@ -5512,7 +5517,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7285,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "grace25",
@@ -5710,7 +5715,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7907,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "irene33",
@@ -8935,7 +8940,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -8950,7 +8955,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10289,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8991,12 +8996,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10289,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10289,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9011,7 +9016,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9052,12 +9057,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10299,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9118,7 +9123,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10309,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9133,7 +9138,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9174,12 +9179,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10319,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -9194,7 +9199,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9235,12 +9240,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10329,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9255,7 +9260,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9296,12 +9301,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10339,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9316,7 +9321,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9357,12 +9362,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10349,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9423,7 +9428,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10359,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9438,7 +9443,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9479,12 +9484,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10369,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -9545,7 +9550,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10379,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -9560,7 +9565,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10389,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9601,12 +9606,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10389,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10389,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9621,7 +9626,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9662,12 +9667,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10399,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9728,7 +9733,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10409,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9743,7 +9748,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9784,12 +9789,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10419,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -9804,7 +9809,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9845,12 +9850,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10429,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9865,7 +9870,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9906,12 +9911,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10439,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9926,7 +9931,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9967,12 +9972,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10449,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10033,7 +10038,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10459,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10048,7 +10053,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10089,12 +10094,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10469,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10155,7 +10160,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10479,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10170,7 +10175,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10489,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10211,12 +10216,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10489,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10489,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10231,7 +10236,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10272,12 +10277,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10499,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10338,7 +10343,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10509,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10353,7 +10358,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10394,12 +10399,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10519,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -10414,7 +10419,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10455,12 +10460,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10529,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10475,7 +10480,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10516,12 +10521,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10539,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -10536,7 +10541,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -10577,12 +10582,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10643,7 +10648,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10559,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10658,7 +10663,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10699,12 +10704,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10569,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10765,7 +10770,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10579,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10780,7 +10785,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10589,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10821,12 +10826,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10589,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10589,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10841,7 +10846,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10882,12 +10887,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10599,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10948,7 +10953,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10609,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10963,7 +10968,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11004,12 +11009,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10619,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -11024,7 +11029,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -11065,12 +11070,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10629,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11085,7 +11090,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11126,12 +11131,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10639,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11146,7 +11151,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11187,12 +11192,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10649,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11253,7 +11258,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10659,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11268,7 +11273,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11309,12 +11314,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10669,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11375,7 +11380,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10679,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11390,7 +11395,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10689,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -11431,12 +11436,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10689,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10689,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11451,7 +11456,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -11492,12 +11497,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10699,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -11558,7 +11563,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10709,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -11573,7 +11578,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11614,12 +11619,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10719,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -11634,7 +11639,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -11675,12 +11680,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10729,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11695,7 +11700,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11736,12 +11741,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10739,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11756,7 +11761,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11797,12 +11802,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10749,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11863,7 +11868,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10759,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11878,7 +11883,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11919,12 +11924,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11985,7 +11990,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10779,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12000,7 +12005,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10789,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -12041,12 +12046,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10789,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10789,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12061,7 +12066,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10799,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12102,12 +12107,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10799,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10799,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12168,7 +12173,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12183,7 +12188,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12224,12 +12229,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10819,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12244,7 +12249,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10829,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12285,12 +12290,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10829,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10829,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12305,7 +12310,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12346,12 +12351,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10839,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12366,7 +12371,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12407,12 +12412,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10849,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12473,7 +12478,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10859,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12488,7 +12493,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12529,12 +12534,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10869,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12595,7 +12600,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10879,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12610,7 +12615,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10889,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -12651,12 +12656,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10889,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10889,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12671,7 +12676,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10899,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12712,12 +12717,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10899,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10899,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12778,7 +12783,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10909,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12793,7 +12798,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12834,12 +12839,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10919,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12854,7 +12859,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10929,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12895,12 +12900,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10929,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10929,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12915,7 +12920,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12956,12 +12961,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10939,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12976,7 +12981,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13017,12 +13022,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10949,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13083,7 +13088,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13098,7 +13103,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13139,12 +13144,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10969,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13205,7 +13210,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10979,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13220,7 +13225,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10989,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13261,12 +13266,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10989,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10989,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13281,7 +13286,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10999,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13322,12 +13327,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10999,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10999,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13388,7 +13393,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11009,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13403,7 +13408,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13444,12 +13449,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11019,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -13464,7 +13469,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11029,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -13505,12 +13510,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11029,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11029,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13525,7 +13530,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13566,12 +13571,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11039,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13586,7 +13591,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13627,12 +13632,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11049,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13693,7 +13698,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11059,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13708,7 +13713,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13749,12 +13754,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11069,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13815,7 +13820,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11079,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13830,7 +13835,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11089,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13871,12 +13876,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11089,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11089,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13891,7 +13896,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11099,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13932,12 +13937,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11099,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11099,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13998,7 +14003,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11109,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14013,7 +14018,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14054,12 +14059,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11119,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14074,7 +14079,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11129,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14115,12 +14120,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11129,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11129,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14135,7 +14140,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14176,12 +14181,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11139,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14196,7 +14201,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14237,12 +14242,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11149,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14303,7 +14308,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11159,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14318,7 +14323,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14359,12 +14364,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11169,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -14425,7 +14430,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11179,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14440,7 +14445,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11189,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14481,12 +14486,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11189,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11189,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -14501,7 +14506,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11199,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14542,12 +14547,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11199,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11199,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -14608,7 +14613,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11209,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14623,7 +14628,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14664,12 +14669,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11219,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14684,7 +14689,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11229,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14725,12 +14730,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11229,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11229,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14745,7 +14750,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14786,12 +14791,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11239,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14806,7 +14811,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14847,12 +14852,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11249,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14913,7 +14918,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11259,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14928,7 +14933,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14969,12 +14974,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11269,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15035,7 +15040,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11279,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15050,7 +15055,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11289,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15091,12 +15096,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11289,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11289,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15111,7 +15116,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15152,12 +15157,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11299,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15218,7 +15223,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11309,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15233,7 +15238,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15274,12 +15279,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11319,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15294,7 +15299,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15335,12 +15340,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11329,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15355,7 +15360,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15396,12 +15401,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11339,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15416,7 +15421,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15457,12 +15462,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11349,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -15523,7 +15528,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15538,7 +15543,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15579,12 +15584,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11369,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15645,7 +15650,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11379,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15660,7 +15665,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11389,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15701,12 +15706,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11389,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11389,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15721,7 +15726,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15762,12 +15767,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11399,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15828,7 +15833,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15843,7 +15848,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15884,12 +15889,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11419,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15904,7 +15909,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15945,12 +15950,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11429,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15965,7 +15970,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16006,12 +16011,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11439,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -16026,7 +16031,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16067,12 +16072,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16133,7 +16138,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11459,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16148,7 +16153,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16189,12 +16194,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16255,7 +16260,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11479,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16270,7 +16275,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11489,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16311,12 +16316,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11489,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11489,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -16331,7 +16336,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16372,12 +16377,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11499,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -16438,7 +16443,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11509,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -16453,7 +16458,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16494,12 +16499,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11519,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -16514,7 +16519,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16555,12 +16560,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11529,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16575,7 +16580,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16616,12 +16621,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11539,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -16636,7 +16641,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16677,12 +16682,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11549,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16743,7 +16748,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11559,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16758,7 +16763,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16799,12 +16804,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11569,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16865,7 +16870,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11579,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16880,7 +16885,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11589,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16921,12 +16926,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11589,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11589,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -16941,7 +16946,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16982,12 +16987,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11599,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -17048,7 +17053,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17063,7 +17068,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17104,12 +17109,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11619,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -17124,7 +17129,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17165,12 +17170,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11629,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17185,7 +17190,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17226,12 +17231,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11639,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -17246,7 +17251,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17287,12 +17292,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11649,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17353,7 +17358,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11659,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -17368,7 +17373,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17409,12 +17414,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11669,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -17475,7 +17480,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11679,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -17490,7 +17495,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11689,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17531,12 +17536,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11689,
-  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11689,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -17551,7 +17556,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17592,12 +17597,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11699,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -17658,7 +17663,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11709,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17673,7 +17678,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17714,12 +17719,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11719,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -17734,7 +17739,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17775,12 +17780,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11729,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17795,7 +17800,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17836,12 +17841,12 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11739,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -17856,7 +17861,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17897,12 +17902,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11749,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17963,7 +17968,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11759,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -17978,7 +17983,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18019,12 +18024,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11769,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18060,7 +18065,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11769,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18096,7 +18101,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11779,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18132,7 +18137,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11789,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18168,7 +18173,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11799,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18204,7 +18209,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18240,7 +18245,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11819,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18276,7 +18281,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11829,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -18312,7 +18317,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11839,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -18348,7 +18353,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11849,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18384,7 +18389,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11859,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18420,7 +18425,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11869,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18456,7 +18461,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11879,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18492,7 +18497,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11889,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18528,7 +18533,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11899,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18564,7 +18569,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11909,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18600,7 +18605,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11919,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18636,7 +18641,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11929,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -18672,7 +18677,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11939,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -18708,7 +18713,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11949,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18744,7 +18749,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11959,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18780,7 +18785,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11969,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18816,7 +18821,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11979,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18852,7 +18857,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11989,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18888,7 +18893,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11999,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18924,7 +18929,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12009,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18960,7 +18965,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12019,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18996,7 +19001,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12029,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19032,7 +19037,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12039,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -19068,7 +19073,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12049,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19104,7 +19109,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12059,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19140,7 +19145,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12069,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19176,7 +19181,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19212,7 +19217,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12089,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19248,7 +19253,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12099,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -19284,7 +19289,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12109,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -19320,7 +19325,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12119,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19356,7 +19361,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12129,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19392,7 +19397,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12139,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -19428,7 +19433,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12149,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19464,7 +19469,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12159,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19500,7 +19505,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12169,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19536,7 +19541,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12179,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19572,7 +19577,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12189,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19608,7 +19613,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12199,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -19644,7 +19649,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12209,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -19680,7 +19685,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12219,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19716,7 +19721,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12229,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19752,7 +19757,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12239,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -19788,7 +19793,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12249,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19824,7 +19829,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12259,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19860,7 +19865,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12269,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19896,7 +19901,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12279,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19932,7 +19937,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12289,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19968,7 +19973,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12299,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20004,7 +20009,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12309,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20040,7 +20045,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20076,7 +20081,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12329,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20112,7 +20117,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12339,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20148,7 +20153,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12349,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20184,7 +20189,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12359,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20220,7 +20225,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12369,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20256,7 +20261,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12379,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20292,7 +20297,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12389,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20328,7 +20333,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12399,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20364,7 +20369,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12409,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20400,7 +20405,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20436,7 +20441,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12429,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20472,7 +20477,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12439,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20508,7 +20513,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20544,7 +20549,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12459,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20580,7 +20585,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12469,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20616,7 +20621,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12479,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20652,7 +20657,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12489,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20688,7 +20693,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12499,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20724,7 +20729,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12509,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20760,7 +20765,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12519,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20796,7 +20801,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12529,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20832,7 +20837,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12539,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20868,7 +20873,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12549,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20904,7 +20909,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20940,7 +20945,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12569,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20976,7 +20981,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12579,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -21012,7 +21017,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12589,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -21048,7 +21053,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12599,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21084,7 +21089,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12609,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21120,7 +21125,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12619,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21156,7 +21161,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12629,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21192,7 +21197,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12639,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21228,7 +21233,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12649,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21264,7 +21269,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -21300,7 +21305,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12669,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -21336,7 +21341,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12679,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -21372,7 +21377,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12689,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -21408,7 +21413,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12699,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21444,7 +21449,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12709,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21480,7 +21485,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12719,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21516,7 +21521,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12729,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21552,7 +21557,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12739,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21588,7 +21593,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12749,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21624,7 +21629,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12759,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -21660,7 +21665,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -21696,7 +21701,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12779,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -21732,7 +21737,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12789,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -21768,7 +21773,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12799,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21804,7 +21809,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12809,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21840,7 +21845,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12819,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21876,7 +21881,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12829,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21912,7 +21917,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12839,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21948,7 +21953,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12849,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21984,7 +21989,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12859,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -22020,7 +22025,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12869,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -22056,7 +22061,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12879,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22092,7 +22097,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12889,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22128,7 +22133,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12899,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22164,7 +22169,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12909,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22200,7 +22205,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12919,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22236,7 +22241,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12929,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22272,7 +22277,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12939,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -22308,7 +22313,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12949,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -22344,7 +22349,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12959,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -22380,7 +22385,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12969,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -22416,7 +22421,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12979,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22452,7 +22457,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12989,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22488,7 +22493,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12999,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22524,7 +22529,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22560,7 +22565,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13019,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22596,7 +22601,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13029,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22632,7 +22637,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13039,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -22668,7 +22673,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13049,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -22704,7 +22709,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13059,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -22740,7 +22745,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -22776,7 +22781,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13079,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22812,7 +22817,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13089,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22848,7 +22853,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13099,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22884,7 +22889,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13109,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22920,7 +22925,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13119,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22956,7 +22961,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13129,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22992,7 +22997,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13139,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -23028,7 +23033,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13149,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -23064,7 +23069,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13159,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -23100,7 +23105,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13169,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -23136,7 +23141,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13179,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -23172,7 +23177,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13189,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -23208,7 +23213,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13199,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -23244,7 +23249,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13209,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -23280,7 +23285,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13219,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -23316,7 +23321,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13229,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -23352,7 +23357,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13239,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -23388,7 +23393,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13249,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -23424,7 +23429,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13259,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -26030,6 +26035,10 @@
   "user" : "jack29",
   "timestamp" : 14849,
   "result" : [ "The Man", "Money Trees" ]
+}, {
+  "command" : "getAllUsers",
+  "timestamp" : 14849,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "cbutler", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14849,

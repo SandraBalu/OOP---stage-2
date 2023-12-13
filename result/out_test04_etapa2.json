@@ -39,6 +39,10 @@
   "timestamp" : 40,
   "message" : "The username irene33 is already taken."
 }, {
+  "command" : "getAllUsers",
+  "timestamp" : 45,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodicmind42", "rhythmicrider58", "harmonyhunter73", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
+}, {
   "command" : "addAlbum",
   "user" : "rhythmrider",
   "timestamp" : 50,
@@ -52,8 +56,8 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "message" : "melodicmind42 is offline.",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -63,33 +67,38 @@
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Rhythmic Revolution."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
   "timestamp" : 90,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Rhythmic Revolution",
+    "remainedTime" : 185,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "user" : "melodicmind42",
   "command" : "printCurrentPage",
   "timestamp" : 135,
-  "message" : "melodicmind42 is offline."
+  "message" : "Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 150,
+  "message" : "beatblazer can't be deleted."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -107,34 +116,44 @@
   "timestamp" : 285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 1158,
+  "message" : "beatblazer can't be deleted."
+}, {
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 1159,
   "message" : "Returned to previous track successfully. The current track is Melodic Motion."
 }, {
+  "command" : "deleteUser",
+  "user" : "beatblazer",
+  "timestamp" : 1380,
+  "message" : "beatblazer was successfully deleted."
+}, {
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "message" : "melodicmind42 is offline.",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Rapid Rhythms" ]
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Rapid Rhythms."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "user" : "melodicmind42",
   "command" : "printCurrentPage",
   "timestamp" : 1480,
-  "message" : "melodicmind42 is offline."
+  "message" : "Liked songs:\n\t[Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
 } ]

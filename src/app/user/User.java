@@ -52,6 +52,8 @@ public class User extends LibraryEntry{
     private boolean isConnected;
     private Page currentPage;
 
+    private String pageType;
+
     public Page getCurrentPage() {
         return currentPage;
     }
@@ -146,6 +148,13 @@ public class User extends LibraryEntry{
         isConnected = connected;
     }
 
+    public String getPageType() {
+        return pageType;
+    }
+
+    public void setPageType(String pageType) {
+        this.pageType = pageType;
+    }
 
     public String getType() {
         return type;

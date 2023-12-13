@@ -29,7 +29,7 @@ public class HomePage implements Page {
     }
     @Override
     public String switchMessage() {
-        return "Home page";
+        return username + " accessed Home successfully.";
     }
 
 }

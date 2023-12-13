@@ -5,12 +5,14 @@ import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.player.Player;
 import app.user.User;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
 import javassist.bytecode.annotation.StringMemberValue;
+import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -23,7 +25,6 @@ public final class Admin {
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
-
     private static List<Album> albums = new ArrayList<>();
 
     private static int timestamp = 0;
@@ -59,26 +60,94 @@ public final class Admin {
             }
         }
         User newUser = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), userInput.getType());
-        newUser.setConnected(false);
+        newUser.setConnected(true);
         users.add(newUser);
         message = "The username " + newUser.getUsername() + " has been added successfully.";
         return message;
 
     }
+    public static String deleteArtist(User artist) {
+        for (User user1 : users) {
+            if (user1.getPlayer()!= null && user1.getPlayer().getType()!= null) {
+                Player currentPlayer = user1.getPlayer();
+                if (currentPlayer.getCurrentAudioFile() != null &&
+                        (currentPlayer.getType().equals("song") || currentPlayer.getType().equals("album")))  {
 
-    public static String deleteUser(UserInput userInput) {
-        String message;
-        boolean isUser = false;
-        for (User user : users) {
-            if (user.getUsername().equals(userInput.getUsername())) {
-                isUser = true;
+                    Song currentSong = (Song) currentPlayer.getCurrentAudioFile();
+                    if (currentSong.getArtist().equals(artist.getUsername())) {
+                        return artist.getUsername() + " can't be deleted.";
+                    }
+                }
             }
         }
-        if (isUser == false) {
-            message = "The username " + userInput.getUsername() + " doesn't exists";
-        }
-        return null;
 
+        // delete artist's songs
+        int index = 0; boolean ok = true;
+        do {
+            index = 0;
+            for (Song song : songs) {
+                if (song.getArtist().equals(artist.getUsername())) {
+                    ok = false;
+                    break;
+                }
+                index++;
+            }
+            if (index < songs.size() && ok == false) {
+                songs.remove(index);
+            }
+            if (index == songs.size()) {
+                ok = true;
+            }
+
+        } while (!ok);
+
+        //delete artist's albums
+        do {
+            index = 0;
+            for (Album album : albums) {
+                if (album.getOwner().equals(artist.getUsername())) {
+                    ok = false;
+                    break;
+                }
+                index++;
+            }
+            if (index < albums.size() && ok == false) {
+                albums.remove(index);
+            }
+            if (index == albums.size()) {
+                ok = true;
+            }
+        } while (!ok);
+
+        for (User user : users) {
+            ArrayList<Song> userSongs = user.getLikedSongs();
+            if (userSongs != null) {
+                index = 0;
+                while (index < userSongs.size()) {
+                    Song song  = userSongs.get(index);
+                    if (song.getArtist().equals(artist.getUsername())) {
+                        userSongs.remove(index);
+                    } else {
+                        index++;
+                    }
+                }
+            }
+            user.setLikedSongs(userSongs);
+        }
+        users.remove(artist);
+        return artist.getUsername() + " was successfully deleted.";
+    }
+
+    public static String deleteUser(User user) {
+
+        if (user.getType().equals("normal")) {
+            return "delete normal user";
+        } else if (user.getType().equals("artist")) {
+            return deleteArtist(user);
+        } else if (user.getType().equals("host")) {
+            return "delete host";
+        }
+        return "no delete";
     }
 
 
@@ -328,7 +397,37 @@ public final class Admin {
         List<User> onUsers = new ArrayList<>(getUsers());
         List<String> userNames = new ArrayList<>();
         for(User user : onUsers) {
-            if (user.isConnected()) {
+            if (user.isConnected() && user.getType().equals("normal")) {
+                String name = user.getUsername();
+                userNames.add(name);
+            }
+        }
+        return userNames;
+    }
+
+    public static List<String> allUsers() {
+
+        List<String> userNames = new ArrayList<>();
+        for(User user : users) {
+            if (user.isConnected() && user.getType().equals("normal")) {
+                String name = user.getUsername();
+                userNames.add(name);
+            }
+        }
+        for(User user : users) {
+            if (user.isConnected() && user.getType().equals("user")) {
+                String name = user.getUsername();
+                userNames.add(name);
+            }
+        }
+        for(User user : users) {
+            if (user.isConnected() && user.getType().equals("artist")) {
+                String name = user.getUsername();
+                userNames.add(name);
+            }
+        }
+        for(User user : users) {
+            if (user.isConnected() && user.getType().equals("host")) {
                 String name = user.getUsername();
                 userNames.add(name);
             }

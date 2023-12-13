@@ -122,7 +122,9 @@ public final class Main {
                 case "getTop5Albums" -> outputs.add(CommandRunner.getTop5Albums(command));
                 case "switchConnectionStatus" -> outputs.add(CommandRunner.switchConnection(command));
                 case "getOnlineUsers" -> outputs.add(CommandRunner.onlineUsers(command));
+                case "getAllUsers" -> outputs.add(CommandRunner.allUsers(command));
                 case "addUser" -> outputs.add(CommandRunner.addUser(command));
+                case "deleteUser" -> outputs.add(CommandRunner.deleteUser(command));
                 case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
                 case "removeAlbum" -> outputs.add(CommandRunner.removeAlbum(command));
                 case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));

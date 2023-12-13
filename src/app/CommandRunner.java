@@ -4,6 +4,7 @@ import app.audio.Collections.AlbumOutput;
 import app.audio.Collections.PlaylistOutput;
 import app.audio.Collections.PodcastOutput;
 import app.audio.Files.Episode;
+import app.audio.Files.Song;
 import app.pages.PageFactory;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
@@ -71,7 +72,6 @@ public final class CommandRunner {
      */
     public static ObjectNode select(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-
         if (user == null) {
             return null;
         }
@@ -82,7 +82,10 @@ public final class CommandRunner {
 
             PageFactory pageFactory = new PageFactory();
             User artistUser = Admin.getUser(user.getSearchBar().getLastSelected().getName());
-            user.setCurrentPage(pageFactory.getPage("ArtistPage", artistUser));
+            if (artistUser != null) {
+                user.setCurrentPage(pageFactory.getPage("ArtistPage", artistUser));
+                user.setPageType("ArtistPage");
+            }
         }
 
         if (user.getSearchBar() != null && user.getSearchBar().getLastSearchType() != null
@@ -90,7 +93,10 @@ public final class CommandRunner {
 
             PageFactory pageFactory = new PageFactory();
             User hostUser = Admin.getUser(user.getSearchBar().getLastSelected().getName());
-            user.setCurrentPage(pageFactory.getPage("HostPage", hostUser));
+            if (hostUser != null) {
+                user.setCurrentPage(pageFactory.getPage("HostPage", hostUser));
+                user.setPageType("HostPage");
+            }
         }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
@@ -600,6 +606,19 @@ public final class CommandRunner {
         return objectNode;
     }
 
+    public static ObjectNode allUsers(final CommandInput commandInput) {
+
+        List<String> results = Admin.allUsers();
+        String message = "Search returned " + results.size() + " results";
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(results));
+
+        return objectNode;
+    }
+
     public static ObjectNode addUser(final CommandInput commandInput) {
 
         UserInput user = new UserInput();
@@ -616,6 +635,22 @@ public final class CommandRunner {
         objectNode.put("timestamp", commandInput.getTimestamp());
         objectNode.put("message", message);
 
+        return objectNode;
+    }
+
+    public static ObjectNode deleteUser(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        String message;
+        User user = Admin.getUser(commandInput.getUsername());
+        if (user != null) {
+            message = Admin.deleteUser(user);
+        } else {
+            message = commandInput.getUsername() + "doesn't exist.";
+        }
+        objectNode.put("message", message);
         return objectNode;
     }
 
@@ -734,11 +769,16 @@ public final class CommandRunner {
         if (!user.isConnected()) {
             message = user.getUsername() + " is offline.";
         } else {
+            if (user.getPageType() == null) {
+                user.setPageType("Home");
+            }
 
-            if (user.getCurrentPage() == null && user.getType().equals("normal")) {
-                user.setCurrentPage(pageFactory.getPage("HomePage", user));
-//        } else if (user.getCurrentPage() == null && user.getType().equals("artist")) {
-//            user.setCurrentPage(pageFactory.getPage("ArtistPage", user.getUsername()));
+            if ((user.getType().equals("normal") || user.getType().equals("user")) && user.getPageType().equals("Home")) {
+                user.setCurrentPage(pageFactory.getPage("Home", user));
+       } else if (user.getCurrentPage() == null && user.getType().equals("artist")) {
+          user.setCurrentPage(pageFactory.getPage("ArtistPage", user));
+            } else if (user.getCurrentPage() == null && user.getType().equals("host")) {
+                user.setCurrentPage(pageFactory.getPage("HostPage", user));
             }
             if (user.getCurrentPage() != null) {
                 message = user.getCurrentPage().displayContent();
@@ -746,6 +786,7 @@ public final class CommandRunner {
                 message = "no page";
             }
         }
+
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("command", commandInput.getCommand());
@@ -764,6 +805,7 @@ public final class CommandRunner {
         user.setCurrentPage(pageFactory.getPage(commandInput.getNextPage(), user));
         if (user.getCurrentPage() != null) {
             message = user.getCurrentPage().switchMessage();
+            user.setPageType(commandInput.getNextPage());
         } else {
             message = "invalid";
         }

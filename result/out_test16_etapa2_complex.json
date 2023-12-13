@@ -4886,7 +4886,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5420,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "alice22",
@@ -5084,7 +5084,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6042,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "carol19",
@@ -5282,7 +5282,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6664,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "emily30",
@@ -5480,7 +5480,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7286,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "grace25",
@@ -5678,7 +5678,7 @@
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7908,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "shuffle",
   "user" : "irene33",
@@ -8856,7 +8856,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -8871,7 +8871,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10290,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8912,12 +8912,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10290,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -8932,7 +8932,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8973,12 +8973,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -8993,7 +8993,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10310,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9034,12 +9034,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10310,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9100,7 +9100,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -9115,7 +9115,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9156,12 +9156,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9222,7 +9222,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9237,7 +9237,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10350,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9278,12 +9278,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10350,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9298,7 +9298,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9339,12 +9339,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9359,7 +9359,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9400,12 +9400,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -9466,7 +9466,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -9481,7 +9481,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10390,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9522,12 +9522,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10390,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10390,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9542,7 +9542,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9583,12 +9583,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10400,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9603,7 +9603,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9644,12 +9644,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9710,7 +9710,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -9725,7 +9725,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9766,12 +9766,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9832,7 +9832,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -9847,7 +9847,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10450,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9888,12 +9888,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10450,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9908,7 +9908,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9949,12 +9949,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9969,7 +9969,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10010,12 +10010,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10076,7 +10076,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10091,7 +10091,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10490,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10132,12 +10132,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10490,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10152,7 +10152,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10193,12 +10193,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10213,7 +10213,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10510,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -10254,12 +10254,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10510,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10320,7 +10320,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -10335,7 +10335,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10376,12 +10376,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10442,7 +10442,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -10457,7 +10457,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10550,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -10498,12 +10498,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10550,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10518,7 +10518,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -10559,12 +10559,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10579,7 +10579,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10620,12 +10620,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10686,7 +10686,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10701,7 +10701,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10590,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10742,12 +10742,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10590,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10762,7 +10762,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10803,12 +10803,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -10823,7 +10823,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10610,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -10864,12 +10864,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10610,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10930,7 +10930,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -10945,7 +10945,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10986,12 +10986,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11052,7 +11052,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11067,7 +11067,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10650,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11108,12 +11108,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10650,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11128,7 +11128,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11169,12 +11169,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11189,7 +11189,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11230,12 +11230,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11296,7 +11296,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11311,7 +11311,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10690,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -11352,12 +11352,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10690,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10690,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11372,7 +11372,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -11413,12 +11413,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -11433,7 +11433,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10710,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -11474,12 +11474,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10710,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -11540,7 +11540,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -11555,7 +11555,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -11596,12 +11596,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11662,7 +11662,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11677,7 +11677,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10750,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11718,12 +11718,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10750,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11738,7 +11738,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11779,12 +11779,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11799,7 +11799,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11840,12 +11840,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11906,7 +11906,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11921,7 +11921,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10790,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -11962,12 +11962,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10790,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11982,7 +11982,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10800,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12023,12 +12023,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10800,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12043,7 +12043,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10810,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -12084,12 +12084,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10810,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12150,7 +12150,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12165,7 +12165,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12206,12 +12206,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12272,7 +12272,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12287,7 +12287,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10850,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12328,12 +12328,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10850,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12348,7 +12348,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12389,12 +12389,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12409,7 +12409,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12450,12 +12450,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12516,7 +12516,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12531,7 +12531,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10890,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -12572,12 +12572,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10890,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12592,7 +12592,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10900,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12633,12 +12633,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10900,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12653,7 +12653,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10910,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -12694,12 +12694,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10910,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12760,7 +12760,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12775,7 +12775,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12816,12 +12816,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12882,7 +12882,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12897,7 +12897,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10950,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12938,12 +12938,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10950,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12958,7 +12958,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12999,12 +12999,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13019,7 +13019,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13060,12 +13060,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13126,7 +13126,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13141,7 +13141,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10990,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13182,12 +13182,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10990,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13202,7 +13202,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11000,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13243,12 +13243,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11000,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13263,7 +13263,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11010,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -13304,12 +13304,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11010,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13370,7 +13370,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -13385,7 +13385,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -13426,12 +13426,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13492,7 +13492,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13507,7 +13507,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11050,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13548,12 +13548,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11050,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13568,7 +13568,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13609,12 +13609,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13629,7 +13629,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13670,12 +13670,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13736,7 +13736,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13751,7 +13751,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11090,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13792,12 +13792,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11090,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13812,7 +13812,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11100,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13853,12 +13853,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11100,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13873,7 +13873,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11110,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -13914,12 +13914,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11110,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13980,7 +13980,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -13995,7 +13995,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14036,12 +14036,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14102,7 +14102,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14117,7 +14117,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11150,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14158,12 +14158,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11150,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14178,7 +14178,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14219,12 +14219,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14239,7 +14239,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14280,12 +14280,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -14346,7 +14346,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11180,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14361,7 +14361,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11190,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14402,12 +14402,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11190,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -14422,7 +14422,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11200,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14463,12 +14463,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11200,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -14483,7 +14483,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11210,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14524,12 +14524,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11210,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14590,7 +14590,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14605,7 +14605,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14646,12 +14646,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14712,7 +14712,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14727,7 +14727,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11250,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14768,12 +14768,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11250,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11250,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -14788,7 +14788,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14829,12 +14829,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14849,7 +14849,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14890,12 +14890,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -14956,7 +14956,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14971,7 +14971,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11290,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15012,12 +15012,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11290,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15032,7 +15032,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15073,12 +15073,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15093,7 +15093,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11310,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15134,12 +15134,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11310,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15200,7 +15200,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15215,7 +15215,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15256,12 +15256,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15322,7 +15322,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15337,7 +15337,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11350,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15378,12 +15378,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11350,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -15398,7 +15398,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15439,12 +15439,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15459,7 +15459,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15500,12 +15500,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15566,7 +15566,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15581,7 +15581,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11390,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15622,12 +15622,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11390,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15642,7 +15642,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15683,12 +15683,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15703,7 +15703,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11410,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15744,12 +15744,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11410,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15810,7 +15810,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15825,7 +15825,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15866,12 +15866,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15932,7 +15932,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15947,7 +15947,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11450,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15988,12 +15988,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11450,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16008,7 +16008,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16049,12 +16049,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16069,7 +16069,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16110,12 +16110,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11470,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16176,7 +16176,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16191,7 +16191,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11490,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16232,12 +16232,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11490,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11490,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -16252,7 +16252,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16293,12 +16293,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -16313,7 +16313,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11510,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16354,12 +16354,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11510,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -16420,7 +16420,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -16435,7 +16435,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16476,12 +16476,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16542,7 +16542,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -16557,7 +16557,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11550,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16598,12 +16598,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11550,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16618,7 +16618,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16659,12 +16659,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16679,7 +16679,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16720,12 +16720,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16786,7 +16786,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16801,7 +16801,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11590,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16842,12 +16842,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11590,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -16862,7 +16862,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16903,12 +16903,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -16923,7 +16923,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11610,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16964,12 +16964,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11610,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17030,7 +17030,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -17045,7 +17045,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17086,12 +17086,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17152,7 +17152,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -17167,7 +17167,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11650,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17208,12 +17208,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11650,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17228,7 +17228,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17269,12 +17269,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -17289,7 +17289,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17330,12 +17330,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -17396,7 +17396,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -17411,7 +17411,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11690,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17452,12 +17452,12 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11690,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11690,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -17472,7 +17472,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17513,12 +17513,12 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -17533,7 +17533,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11710,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -17574,12 +17574,12 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11710,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17640,7 +17640,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -17655,7 +17655,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17696,12 +17696,12 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17762,7 +17762,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -17777,7 +17777,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11750,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17818,12 +17818,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11750,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17838,7 +17838,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17879,12 +17879,12 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -17899,7 +17899,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17940,12 +17940,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -17981,7 +17981,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18017,7 +18017,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18053,7 +18053,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18089,7 +18089,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18125,7 +18125,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18161,7 +18161,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18197,7 +18197,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -18233,7 +18233,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -18269,7 +18269,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18305,7 +18305,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18341,7 +18341,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18377,7 +18377,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18413,7 +18413,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18449,7 +18449,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18485,7 +18485,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18521,7 +18521,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18557,7 +18557,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -18593,7 +18593,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -18629,7 +18629,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18665,7 +18665,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18701,7 +18701,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -18737,7 +18737,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -18773,7 +18773,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -18809,7 +18809,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18845,7 +18845,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18881,7 +18881,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -18917,7 +18917,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -18953,7 +18953,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -18989,7 +18989,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19025,7 +19025,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19061,7 +19061,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19097,7 +19097,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19133,7 +19133,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19169,7 +19169,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -19205,7 +19205,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -19241,7 +19241,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19277,7 +19277,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19313,7 +19313,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -19349,7 +19349,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19385,7 +19385,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19421,7 +19421,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19457,7 +19457,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19493,7 +19493,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19529,7 +19529,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -19565,7 +19565,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -19601,7 +19601,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19637,7 +19637,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19673,7 +19673,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -19709,7 +19709,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19745,7 +19745,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -19781,7 +19781,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19817,7 +19817,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19853,7 +19853,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19889,7 +19889,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -19925,7 +19925,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -19961,7 +19961,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19997,7 +19997,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20033,7 +20033,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20069,7 +20069,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20105,7 +20105,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20141,7 +20141,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20177,7 +20177,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20213,7 +20213,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20249,7 +20249,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20285,7 +20285,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20321,7 +20321,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20357,7 +20357,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20393,7 +20393,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20429,7 +20429,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20465,7 +20465,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20501,7 +20501,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20537,7 +20537,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20573,7 +20573,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20609,7 +20609,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20645,7 +20645,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20681,7 +20681,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20717,7 +20717,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -20753,7 +20753,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -20789,7 +20789,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20825,7 +20825,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20861,7 +20861,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20897,7 +20897,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20933,7 +20933,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20969,7 +20969,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21005,7 +21005,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21041,7 +21041,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21077,7 +21077,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21113,7 +21113,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21149,7 +21149,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21185,7 +21185,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -21221,7 +21221,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -21257,7 +21257,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -21293,7 +21293,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -21329,7 +21329,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21365,7 +21365,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21401,7 +21401,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21437,7 +21437,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21473,7 +21473,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21509,7 +21509,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21545,7 +21545,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -21581,7 +21581,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -21617,7 +21617,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -21653,7 +21653,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -21689,7 +21689,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21725,7 +21725,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -21761,7 +21761,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -21797,7 +21797,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -21833,7 +21833,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -21869,7 +21869,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -21905,7 +21905,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -21941,7 +21941,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -21977,7 +21977,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22013,7 +22013,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22049,7 +22049,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22085,7 +22085,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22121,7 +22121,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22157,7 +22157,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22193,7 +22193,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -22229,7 +22229,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -22265,7 +22265,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -22301,7 +22301,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -22337,7 +22337,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22373,7 +22373,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22409,7 +22409,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22445,7 +22445,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22481,7 +22481,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22517,7 +22517,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22553,7 +22553,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -22589,7 +22589,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -22625,7 +22625,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -22661,7 +22661,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -22697,7 +22697,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -22733,7 +22733,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -22769,7 +22769,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -22805,7 +22805,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -22841,7 +22841,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -22877,7 +22877,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -22913,7 +22913,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -22949,7 +22949,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -22985,7 +22985,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -23021,7 +23021,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "invalid"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -23057,7 +23057,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "invalid"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -23093,7 +23093,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "invalid"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -23129,7 +23129,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "invalid"
+  "message" : "david27 accessed Home successfully."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -23165,7 +23165,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "invalid"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -23201,7 +23201,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "invalid"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -23237,7 +23237,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "invalid"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -23273,7 +23273,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "invalid"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -23309,7 +23309,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "invalid"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -23345,7 +23345,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "invalid"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -25951,6 +25951,10 @@
   "user" : "jack29",
   "timestamp" : 14850,
   "result" : [ "Delicate", "Start Me Up" ]
+}, {
+  "command" : "getAllUsers",
+  "timestamp" : 14850,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "mccarthyluis", "glester", "anthony22", "jacobdean", "amanda16", "cbutler", "barmstrong", "charlesgarcia", "john99", "jenningsbeth", "fwebb", "matthewporter" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14850,

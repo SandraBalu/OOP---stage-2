@@ -1,15 +1,14 @@
 package app.pages;
 
 import app.user.User;
-import fileio.input.CommandInput;
 
 public class PageFactory {
     public Page getPage(String type, User user) {
         switch (type) {
-            case "HomePage":
+            case "Home":
                 return new HomePage(user.getUsername(), user.getLikedSongs(), user.getFollowedPlaylists());
             case "LikedContent":
-                return new LikedContentPage(user.getUsername(), user.getLikedSongs(), user.getFollowedPlaylists());
+                return new LikedContent(user.getUsername(), user.getLikedSongs(), user.getFollowedPlaylists());
             case "ArtistPage":
                 return new ArtistPage(user.getUsername(), user.getAlbums(),user.getMerches(), user.getEvents());
             case "HostPage":

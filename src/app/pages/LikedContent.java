@@ -6,15 +6,15 @@ import app.audio.Files.Song;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LikedContentPage implements Page {
+public class LikedContent implements Page {
 
     private List<Playlist> followedPlaylists;
     private String username;
-    private List<String> likedSongs;
+    private List<Song> likedSongs;
 
-    public LikedContentPage(String username, List<Song> likedSongs, List<Playlist> followedPlaylists) {
+    public LikedContent(String username, List<Song> likedSongs, List<Playlist> followedPlaylists) {
         this.username = username;
-        this.likedSongs = likedSongs.stream().map(Song::getName).toList();
+        this.likedSongs = likedSongs;
         this.followedPlaylists = followedPlaylists;
     }
 
@@ -27,7 +27,14 @@ public class LikedContentPage implements Page {
             message.add(playlistOutput.toString());
         }
 
-        return "Liked songs:\n\t" + likedSongs + "\n\nFollowed playlists:\n\t" + message;
+        ArrayList<String> message1 = new ArrayList<>();
+        for (Song song : likedSongs) {
+            StringBuilder playlistOutput = new StringBuilder();
+            playlistOutput.append(song.getName()).append(" - ").append(song.getArtist());
+            message1.add(playlistOutput.toString());
+        }
+
+        return "Liked songs:\n\t" + message1 + "\n\nFollowed playlists:\n\t" + message;
     }
 
     @Override

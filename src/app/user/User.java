@@ -1,35 +1,25 @@
 package app.user;
 
 import app.Admin;
-import app.CommandRunner;
 import app.audio.Collections.*;
 import app.audio.Files.*;
 import app.audio.LibraryEntry;
-import app.pages.HomePage;
-import app.pages.HostPage;
 import app.pages.Page;
-import app.pages.PageFactory;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import fileio.input.CommandInput;
-import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 import lombok.Getter;
-import org.checkerframework.checker.units.qual.A;
-import org.checkerframework.checker.units.qual.C;
-import java.text.SimpleDateFormat;
-import java.text.ParseException;
-import java.util.Date;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * The type User.
  */
-public class User extends LibraryEntry{
+public final class User extends LibraryEntry {
     @Getter
     private String username;
     @Getter
@@ -56,21 +46,25 @@ public class User extends LibraryEntry{
     private String pageType;
     private  int likes;
 
+    private static final int LIMIT_INF = 1900;
+    private static final int LIMIT_SUP = 2023;
+    private static final int MAGIC_MM = 12;
+    private static final int MAGIC_DAY = 31;
+    private static final int MAGIC_FEB = 28;
+
     public Page getCurrentPage() {
         return currentPage;
     }
 
-    public void setCurrentPage(Page currentPage) {
+    public void setCurrentPage(final Page currentPage) {
         this.currentPage = currentPage;
     }
-
-
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(final String username) {
         this.username = username;
     }
 
@@ -78,7 +72,7 @@ public class User extends LibraryEntry{
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -86,7 +80,7 @@ public class User extends LibraryEntry{
         return city;
     }
 
-    public void setCity(String city) {
+    public void setCity(final String city) {
         this.city = city;
     }
 
@@ -94,7 +88,7 @@ public class User extends LibraryEntry{
         return playlists;
     }
 
-    public void setPlaylists(ArrayList<Playlist> playlists) {
+    public void setPlaylists(final ArrayList<Playlist> playlists) {
         this.playlists = playlists;
     }
 
@@ -102,7 +96,7 @@ public class User extends LibraryEntry{
         return likedSongs;
     }
 
-    public void setLikedSongs(ArrayList<Song> likedSongs) {
+    public void setLikedSongs(final ArrayList<Song> likedSongs) {
         this.likedSongs = likedSongs;
     }
 
@@ -110,7 +104,7 @@ public class User extends LibraryEntry{
         return followedPlaylists;
     }
 
-    public void setFollowedPlaylists(ArrayList<Playlist> followedPlaylists) {
+    public void setFollowedPlaylists(final ArrayList<Playlist> followedPlaylists) {
         this.followedPlaylists = followedPlaylists;
     }
 
@@ -138,23 +132,16 @@ public class User extends LibraryEntry{
         return likes;
     }
 
-    public void setLikes(int likes) {
+    public void setLikes(final int likes) {
         this.likes = likes;
     }
 
-    public boolean isLastSearched() {
-        return lastSearched;
-    }
-
-    public void setLastSearched(boolean lastSearched) {
-        this.lastSearched = lastSearched;
-    }
 
     public boolean isConnected() {
         return isConnected;
     }
 
-    public void setConnected(boolean connected) {
+    public void setConnected(final boolean connected) {
         isConnected = connected;
     }
 
@@ -162,7 +149,7 @@ public class User extends LibraryEntry{
         return pageType;
     }
 
-    public void setPageType(String pageType) {
+    public void setPageType(final String pageType) {
         this.pageType = pageType;
     }
 
@@ -170,14 +157,13 @@ public class User extends LibraryEntry{
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(final String type) {
         this.type = type;
     }
 
     public ArrayList<Podcast> getPodcasts() {
         return podcasts;
     }
-
 
     public ArrayList<Announcement> getAnnouncements() {
         return announcements;
@@ -253,7 +239,8 @@ public class User extends LibraryEntry{
             return "The selected ID is too high.";
         }
 
-        if (searchBar.getLastSearchType().equals("artist") || searchBar.getLastSearchType().equals("host")) {
+        if (searchBar.getLastSearchType().equals("artist")
+                || searchBar.getLastSearchType().equals("host")) {
             return "Successfully selected %s's page.".formatted(selected.getName());
         }
 
@@ -372,7 +359,7 @@ public class User extends LibraryEntry{
      * @return the string
      */
     public String forward() {
-        if (player.getSource() == null ) {
+        if (player.getSource() == null) {
             return "Please load a source before attempting to forward.";
         }
 
@@ -569,6 +556,11 @@ public class User extends LibraryEntry{
         return albumOutputs;
     }
 
+    /**
+     * Show podcasts array list.
+     *
+     * @return the array list
+     */
     public ArrayList<PodcastOutput> showPodcasts() {
         ArrayList<PodcastOutput> podcastOutputs = new ArrayList<>();
         for (Podcast podcast: podcasts) {
@@ -679,9 +671,9 @@ public class User extends LibraryEntry{
      * switch connection for the current user
      *
      * @param user the user whose connection is changed
-     * @return the string
+     * @return success/fail message
      */
-    public String switchConnection(User user ,CommandInput command) {
+    public String switchConnection(final User user, final CommandInput command) {
 
         if (user.getType().equals("artist") || user.getType().equals("host")) {
             return user.username + " is not a normal user.";
@@ -696,6 +688,13 @@ public class User extends LibraryEntry{
 
     }
 
+    /**
+     * add album
+     *
+     * @param name the new album name
+     * @param songs the songs from the new album
+     * @return success/fail message
+     */
     public String addAlbum(final String name, final ArrayList<SongInput> songs) {
         if (albums.stream().anyMatch(album -> album.getName().equals(name))) {
             return username + " has another album with the same name.";
@@ -720,7 +719,13 @@ public class User extends LibraryEntry{
         return username + " has added new album successfully.";
     }
 
-    public String removeAlbum(CommandInput commandInput) {
+    /**
+     * remove albums
+     *
+     * @param commandInput tge given command
+     * @return success/fail message
+     */
+    public String removeAlbum(final CommandInput commandInput) {
         if (!type.equals("artist")) {
             return username + " is not a artist";
         }
@@ -732,8 +737,9 @@ public class User extends LibraryEntry{
             int index = albums1.indexOf(commandInput.getName());
             Album album = albums.get(index);
             for (User user : Admin.getUsers()) {
-                if (user.getPlayer() != null && user.getPlayer().getType() != null &&
-                        (user.getPlayer().getType().equals("album") || user.getPlayer().getType().equals("album"))) {
+                if (user.getPlayer() != null && user.getPlayer().getType() != null
+                        && (user.getPlayer().getType().equals("album")
+                        || user.getPlayer().getType().equals("album"))) {
 
                     if (user.getPlayer().getCurrentAudioFile() != null) {
                         Song song = (Song) user.getPlayer().getCurrentAudioFile();
@@ -741,7 +747,9 @@ public class User extends LibraryEntry{
                             return commandInput.getUsername() + " can't delete this album.";
                         }
                     }
-                } else if (user.getPlayer() != null && user.getPlayer().getType() != null && user.getPlayer().getType().equals("playlist")) {
+                } else if (user.getPlayer() != null && user.getPlayer().getType() != null
+                        && user.getPlayer().getType().equals("playlist")) {
+
                     String playlistName = user.getPlayer().getCollectionName();
                     int i = 0;
                     for (Playlist playlist : Admin.getPlaylists()) {
@@ -764,6 +772,13 @@ public class User extends LibraryEntry{
 
         }
 
+    /**
+     * add podcast
+     *
+     * @param name the new podcast name
+     * @param episodes the episodes from the new podcast
+     * @return success/fail message
+     */
     public String addPodcast(final String name, final ArrayList<Episode> episodes) {
         if (podcasts.stream().anyMatch(podcast -> podcast.getName().equals(name))) {
             return username + " has another podcast with the same name.";
@@ -776,14 +791,23 @@ public class User extends LibraryEntry{
         return username + " has added new podcast successfully.";
     }
 
+    /**
+     * remove podcast
+     *
+     * @param name the name of the podcast to be removed
+     * @return success/fail message
+     */
     public String removePodcast(final String name) {
 
         for (Podcast podcast : podcasts) {
             if (podcast.getName().equals(name)) {
                    for (User user : Admin.getUsers()) {
                        if (user.getPlayer() != null && user.getPlayer().getType() != null) {
-                           if (user.getPlayer().getType().equals("podcast") && user.getPlayer().getSource() != null) {
-                               if (podcast.getEpisodes().contains(user.getPlayer().getSource().getAudioFile())) {
+                           if (user.getPlayer().getType().equals("podcast")
+                                   && user.getPlayer().getSource() != null) {
+
+                               if (podcast.getEpisodes().contains(user.
+                                       getPlayer().getSource().getAudioFile())) {
                                    return username + " can't delete this podcast.";
                                }
                            }
@@ -799,7 +823,13 @@ public class User extends LibraryEntry{
     }
 
 
-    public String addMerch(CommandInput commandInput) {
+    /**
+     * add merch
+     *
+     * @param commandInput the given command
+     * @return success/fail message
+     */
+    public String addMerch(final CommandInput commandInput) {
 
         if (commandInput.getPrice() < 0) {
             return "Price for merchandise can not be negative.";
@@ -825,8 +855,13 @@ public class User extends LibraryEntry{
         return "The username " + username + " doesn't exist.";
     }
 
-
-    public String addEvent(CommandInput commandInput) {
+    /**
+     * add event
+     *
+     * @param commandInput the given command
+     * @return success/fail message
+     */
+    public String addEvent(final CommandInput commandInput) {
 
         List<User> users = Admin.getUsers();
         for (User user : users) {
@@ -846,14 +881,14 @@ public class User extends LibraryEntry{
                 int month = Integer.parseInt(componente[1]);
                 int year = Integer.parseInt(componente[2]);
 
-                if (year < 1900 || year > 2023) {
-                    return "Event for " + username +" does not have a valid date.";
+                if (year < LIMIT_INF || year > LIMIT_SUP) {
+                    return "Event for " + username + " does not have a valid date.";
                 }
-                if (month > 12) {
-                    return "Event for " + username +" does not have a valid date.";
+                if (month > MAGIC_MM) {
+                    return "Event for " + username + " does not have a valid date.";
                 }
-                if (day > 31 || (month == 2 && day > 28)) {
-                    return "Event for " + username +" does not have a valid date.";
+                if (day > MAGIC_DAY || (month == 2 && day > MAGIC_FEB)) {
+                    return "Event for " + username + " does not have a valid date.";
                 }
 
                 Event newEvent = new Event(commandInput.getName(),
@@ -866,7 +901,13 @@ public class User extends LibraryEntry{
         return "The username " + username + " doesn't exist.";
     }
 
-    public String removeEvent(CommandInput commandInput) {
+    /**
+     * remove event
+     *
+     * @param commandInput the given command
+     * @return success/fail message
+     */
+    public String removeEvent(final CommandInput commandInput) {
         if (!type.equals("artist")) {
             return username + " is not a artist.";
         } else {
@@ -888,7 +929,14 @@ public class User extends LibraryEntry{
             return username + " has no announcement with the given name.";
         }
     }
-    public String addAnnouncement(CommandInput commandInput) {
+
+    /**
+     * add announcement
+     *
+     * @param commandInput the given command
+     * @return success/fail message
+     */
+    public String addAnnouncement(final CommandInput commandInput) {
 
         List<User> users = Admin.getUsers();
         for (User user : users) {
@@ -901,7 +949,8 @@ public class User extends LibraryEntry{
                         return username + " has already added an announcement with this name.";
                     }
                 }
-                Announcement newAnnouncement = new Announcement(commandInput.getName(), commandInput.getDescription());
+                Announcement newAnnouncement = new Announcement(commandInput.getName(),
+                                    commandInput.getDescription());
 
                 announcements.add(newAnnouncement);
                 return username + " has successfully added new announcement.";
@@ -910,7 +959,13 @@ public class User extends LibraryEntry{
         return "The username " + username + " doesn't exist.";
     }
 
-    public String removeAnnouncement(CommandInput commandInput) {
+    /**
+     * remove announcement
+     *
+     * @param commandInput the given command
+     * @return success/fail message
+     */
+    public String removeAnnouncement(final CommandInput commandInput) {
         if (!type.equals("host")) {
             return username + " is not a host.";
         } else {

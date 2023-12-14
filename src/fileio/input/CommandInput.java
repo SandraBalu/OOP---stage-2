@@ -1,7 +1,6 @@
 package fileio.input;
 
 import app.audio.Files.Episode;
-import app.audio.Files.Song;
 
 import java.util.ArrayList;
 
@@ -31,7 +30,7 @@ public final class CommandInput {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(final Integer price) {
         this.price = price;
     }
 
@@ -39,7 +38,7 @@ public final class CommandInput {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(final String date) {
         this.date = date;
     }
 
@@ -47,7 +46,7 @@ public final class CommandInput {
         return episodes;
     }
 
-    public void setEpisodes(ArrayList<EpisodeInput> episodes) {
+    public void setEpisodes(final ArrayList<EpisodeInput> episodes) {
         this.episodes = episodes;
     }
 
@@ -55,7 +54,7 @@ public final class CommandInput {
         return nextPage;
     }
 
-    public void setNextPage(String nextPage) {
+    public void setNextPage(final String nextPage) {
         this.nextPage = nextPage;
     }
 
@@ -63,7 +62,7 @@ public final class CommandInput {
         return songs;
     }
 
-    public void setSongs(ArrayList<SongInput> songs) {
+    public void setSongs(final ArrayList<SongInput> songs) {
         this.songs = songs;
     }
 
@@ -71,7 +70,7 @@ public final class CommandInput {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(final String description) {
         this.description = description;
     }
 
@@ -79,7 +78,7 @@ public final class CommandInput {
         return releaseYear;
     }
 
-    public void setReleaseYear(Integer releaseYear) {
+    public void setReleaseYear(final Integer releaseYear) {
         this.releaseYear = releaseYear;
     }
 
@@ -87,7 +86,7 @@ public final class CommandInput {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
@@ -95,7 +94,7 @@ public final class CommandInput {
         return city;
     }
 
-    public void setCity(String city) {
+    public void setCity(final String city) {
         this.city = city;
     }
 
@@ -103,7 +102,7 @@ public final class CommandInput {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(final Integer age) {
         this.age = age;
     }
 
@@ -206,7 +205,14 @@ public final class CommandInput {
                 + '}';
     }
 
-    public ArrayList<Episode> convertEpisodes (ArrayList<EpisodeInput> episodes) {
+
+    /**
+     * convert EpisodeInput arraylist to Episode ArrayList
+     *
+     * @param episodes - arraylist to convert
+     * @return convertedEpisodes - converted arraylist
+     */
+    public ArrayList<Episode> convertEpisodes(final ArrayList<EpisodeInput> episodes) {
         ArrayList<Episode> convertedEpisodes = new ArrayList<>();
         for (EpisodeInput episodeInput : episodes) {
             convertedEpisodes.add(new Episode(episodeInput.getName(),

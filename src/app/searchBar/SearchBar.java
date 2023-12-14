@@ -10,6 +10,7 @@ import java.util.List;
 
 import static app.searchBar.FilterUtils.*;
 
+
 /**
  * The type Search bar.
  */
@@ -27,7 +28,7 @@ public final class SearchBar {
         return results;
     }
 
-    public void setResults(List<LibraryEntry> results) {
+    public void setResults(final List<LibraryEntry> results) {
         this.results = results;
     }
 
@@ -39,16 +40,8 @@ public final class SearchBar {
         return lastSearchType;
     }
 
-    public void setLastSearchType(String lastSearchType) {
-        this.lastSearchType = lastSearchType;
-    }
-
     public LibraryEntry getLastSelected() {
         return lastSelected;
-    }
-
-    public void setLastSelected(LibraryEntry lastSelected) {
-        this.lastSelected = lastSelected;
     }
 
     /**

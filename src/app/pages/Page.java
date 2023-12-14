@@ -1,7 +1,14 @@
 package app.pages;
 public interface Page {
 
-    public String displayContent();
-    public String switchMessage();
+    /**
+     *String for displaying current page content
+     */
+    String displayContent();
+
+    /**
+     *page message
+     */
+    String switchMessage();
 
 }

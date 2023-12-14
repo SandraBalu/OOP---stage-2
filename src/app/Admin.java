@@ -3,7 +3,6 @@ package app;
 import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
-import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.player.Player;
@@ -12,8 +11,6 @@ import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
-import javassist.bytecode.annotation.StringMemberValue;
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -43,11 +40,12 @@ public final class Admin {
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
-            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(),"normal"));
+            users.add(new User(userInput.getUsername(),
+                    userInput.getAge(), userInput.getCity(), "normal"));
         }
     }
 
-    public static void setTimestamp(int timestamp) {
+    public static void setTimestamp(final int timestamp) {
         Admin.timestamp = timestamp;
     }
 
@@ -55,8 +53,9 @@ public final class Admin {
      * Add new user in the list
      *
      * @param userInput the user to add
+     * @return success/fail message
      */
-    public static String Adduser(UserInput userInput) {
+    public static String addUser(final UserInput userInput) {
         String message;
         for (User user : users) {
             if (user.getUsername().equals(userInput.getUsername())) {
@@ -64,26 +63,39 @@ public final class Admin {
                 return message;
             }
         }
-        User newUser = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), userInput.getType());
+        User newUser = new User(userInput.getUsername(),
+                userInput.getAge(), userInput.getCity(), userInput.getType());
         newUser.setConnected(true);
         users.add(newUser);
         message = "The username " + newUser.getUsername() + " has been added successfully.";
         return message;
 
     }
-    public static String deleteArtist(User artist) {
+
+    /**
+     * delete artist user from the platform
+     *
+     * @param artist the user to delete
+     * @return success/fail message
+     */
+    public static String deleteArtist(final User artist) {
+
+//        go through the list of users and check if the current source
+//        of them belongs to the artist
         for (User user1 : users) {
-            if (user1.getPlayer()!= null && user1.getPlayer().getType()!= null) {
+            if (user1.getPlayer() != null && user1.getPlayer().getType() != null) {
                 Player currentPlayer = user1.getPlayer();
-                if (currentPlayer.getCurrentAudioFile() != null &&
-                        (currentPlayer.getType().equals("song") || currentPlayer.getType().equals("album")))  {
+                if (currentPlayer.getCurrentAudioFile() != null
+                        && (currentPlayer.getType().equals("song")
+                                || currentPlayer.getType().equals("album")))  {
 
                     Song currentSong = (Song) currentPlayer.getCurrentAudioFile();
                     if (currentSong.getArtist().equals(artist.getUsername())) {
                         return artist.getUsername() + " can't be deleted.";
                     }
-                } else if (user1.getPlayer() != null && user1.getPlayer().getType() != null &&
-                        user1.getPlayer().getType().equals("playlist") && user1.getPlayer().getCurrentAudioFile() != null) {
+                } else if (user1.getPlayer() != null && user1.getPlayer().getType() != null
+                        && user1.getPlayer().getType().equals("playlist")
+                        && user1.getPlayer().getCurrentAudioFile() != null) {
 
                     String playlistName = user1.getPlayer().getCollectionName();
                     int i = 0;
@@ -101,17 +113,6 @@ public final class Admin {
                     }
                 }
             }
-
-//            ArrayList<Playlist> playlists = user1.getPlaylists();
-//            for (Playlist playlist : playlists) {
-//                System.out.println(playlist.getName());
-//                ArrayList<Song> songs = playlist.getSongs();
-//                for (Song song : songs) {
-//                    if (song.getArtist().equals(artist.getUsername())) {
-//                        return artist.getUsername() + " can't be deleted.";
-//                    }
-//                }
-//            }
 
             if (user1.getPageType() != null && user1.getPageType().equals("ArtistPage")) {
                 if (user1.getSearchBar().getLastSelected().getName().equals(artist.getUsername())) {
@@ -131,7 +132,7 @@ public final class Admin {
                 }
                 index++;
             }
-            if (index < songs.size() && ok == false) {
+            if (index < songs.size() && !ok) {
                 songs.remove(index);
             }
             if (index == songs.size()) {
@@ -150,7 +151,7 @@ public final class Admin {
                 }
                 index++;
             }
-            if (index < albums.size() && ok == false) {
+            if (index < albums.size() && !ok) {
                 albums.remove(index);
             }
             if (index == albums.size()) {
@@ -158,7 +159,7 @@ public final class Admin {
             }
         } while (!ok);
 
-        // sterge melodiile si de la ceilalti useri
+        // remove artist's songs from other users preferred songs
         for (User user : users) {
             ArrayList<Song> userSongs = user.getLikedSongs();
             if (userSongs != null) {
@@ -178,11 +179,23 @@ public final class Admin {
         return artist.getUsername() + " was successfully deleted.";
     }
 
-    public static String removeUser(User user) {
+
+    /**
+     * delete normal user from the platform
+     *
+     * @param user the user to delete
+     * @return success/fail message
+     */
+    public static String removeUser(final User user) {
+
+        // verify if any of the users is listening to a playlist from this user
         for (User user1 : users) {
             Player currentPlayer = user1.getPlayer();
             if (currentPlayer != null && currentPlayer.getType() != null) {
-                if (currentPlayer.getType().equals("playlist") && currentPlayer.getCollectionName() != null && currentPlayer.getCurrentAudioFile() != null) {
+                if (currentPlayer.getType().equals("playlist")
+                        && currentPlayer.getCollectionName() != null
+                        && currentPlayer.getCurrentAudioFile() != null) {
+
                     String currentPlaylist = currentPlayer.getCollectionName();
                     for (Playlist playlist : user.getPlaylists()) {
                         if (playlist.getName().equals(currentPlaylist)) {
@@ -192,6 +205,8 @@ public final class Admin {
                 }
             }
         }
+
+        //remove the user
         int index = 0; boolean ok = true;
 
         for (User user1 : users) {
@@ -226,12 +241,22 @@ public final class Admin {
         return user.getUsername() + " was successfully deleted.";
     }
 
-    public static String removeHost(User hostUser) {
+
+    /**
+     * delete host user from the platform
+     *
+     * @param hostUser the user to delete
+     * @return success/fail message
+     */
+    public static String removeHost(final User hostUser) {
+        //verify if any user is listening to a podcast of this user
         for (User user : users) {
-            if (user.getPlayer()!= null && user.getPlayer().getType()!= null) {
+            if (user.getPlayer() != null && user.getPlayer().getType() != null) {
                 Player currentPlayer = user.getPlayer();
-                if (currentPlayer.getCurrentAudioFile() != null &&
-                        currentPlayer.getType().equals("podcast"))  {
+
+                if (currentPlayer.getCurrentAudioFile() != null
+                        && currentPlayer.getType().equals("podcast"))  {
+
                         Episode episode = (Episode) currentPlayer.getCurrentAudioFile();
                         for (Podcast podcast : hostUser.getPodcasts()) {
                             if (podcast.getEpisodes().contains(episode)) {
@@ -241,11 +266,13 @@ public final class Admin {
                 }
             }
             if (user.getPageType() != null && user.getPageType().equals("HostPage")) {
-                if (user.getSearchBar().getLastSelected().getName().equals(hostUser.getUsername())) {
+                if (user.getSearchBar().getLastSelected()
+                        .getName().equals(hostUser.getUsername())) {
                     return hostUser.getUsername() + " can't be deleted.";
                 }
             }
         }
+
         ArrayList<Podcast> podcasts = hostUser.getPodcasts();
         for (Podcast podcast : podcasts) {
             hostUser.removePodcast(podcast.getName());
@@ -253,15 +280,14 @@ public final class Admin {
         return hostUser.getUsername() + " was successfully deleted.";
     }
 
-    public static String deleteUser(User user) {
-//
-//        for (User user1 : users) {
-//            if (user1.getPlayer() != null && user1.getPlayer().getCollectionName() != null && user1.getPlayer().getType() != null && user1.getPlayer().getCurrentAudioFile() != null) {
-//                System.out.println( user1.getPlayer().getType() + " name: " + user1.getPlayer().getCollectionName() + " - " + user1.getPlayer().getCurrentAudioFile().getName());
-//            }
-//        }
 
-
+    /**
+     * delete user from the platform
+     *
+     * @param user the user to delete
+     * @return success/fail message
+     */
+    public static String deleteUser(final User user) {
         if (user.getType().equals("normal") || user.getType().equals("user")) {
             return removeUser(user);
         } else if (user.getType().equals("artist")) {
@@ -269,7 +295,7 @@ public final class Admin {
         } else if (user.getType().equals("host")) {
             return removeHost(user);
         }
-        return "no delete";
+        return "fail";
     }
 
 
@@ -292,7 +318,7 @@ public final class Admin {
      *
      * @param songInput the song to add
      */
-    public static void addSong(SongInput songInput) {
+    public static void addSong(final SongInput songInput) {
         Song newSong = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
                 songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                 songInput.getReleaseYear(), songInput.getArtist());
@@ -323,7 +349,7 @@ public final class Admin {
      *
      * @param podcastName the name of the podcast to be removed
      */
-    public static void removePodcast(String podcastName) {
+    public static void removePodcast(final String podcastName) {
         // Find the podcast by name
         Podcast podcastToRemove = null;
         for (Podcast podcast : podcasts) {
@@ -344,7 +370,7 @@ public final class Admin {
      *
      * @param newPodcast podcast to add
      */
-    public static void addPodcast(Podcast newPodcast) {
+    public static void addPodcast(final Podcast newPodcast) {
         podcasts.add(newPodcast);
     }
 
@@ -408,7 +434,7 @@ public final class Admin {
      *
      * @param album the album to add
      */
-    public static void addAlbum(Album album) {
+    public static void addAlbum(final Album album) {
         albums.add(album);
     }
 
@@ -440,9 +466,13 @@ public final class Admin {
      */
     public static List<String> getTop5Songs() {
         List<Song> sortedSongs = new ArrayList<>();
+
+        // count the number of likes for each song
         for (Song song : songs) {
-            Song songCopy = new Song(song.getName(),song.getDuration(),song.getAlbum(),
-                    song.getTags(),song.getLyrics(),song.getGenre(),song.getReleaseYear(),song.getArtist());
+            Song songCopy = new Song(song.getName(), song.getDuration(),
+                    song.getAlbum(), song.getTags(), song.getLyrics(),
+                    song.getGenre(), song.getReleaseYear(), song.getArtist());
+
             for (User user : users) {
                 List<Song> likedSongs = user.getLikedSongs();
                 for (Song likedSong : likedSongs) {
@@ -455,8 +485,6 @@ public final class Admin {
         }
 
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
-
-
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
@@ -469,17 +497,25 @@ public final class Admin {
         return topSongs;
     }
 
+    /**
+     * Gets top 5 artists.
+     *
+     * @return the top 5 artists
+     */
     public static List<String> getTop5Artists() {
 
         List<User> artists = new ArrayList<>();
+        // artist users
         for (User user : users) {
             if (user.getType().equals("artist")) {
                 artists.add(Admin.getUser(user.getName()));
             }
         }
+
         List<User> sortedArtists = new ArrayList<>();
+        //c ount the likes for each artist
         for (User user : artists) {
-            User artist = new User(user.getName(),user.getAge(), user.getCity(), user.getType());
+            User artist = new User(user.getName(), user.getAge(), user.getCity(), user.getType());
             artist.setLikes(0);
             for (Album album : albums) {
                 if (album.getOwner().equals(artist.getUsername())) {
@@ -564,11 +600,16 @@ public final class Admin {
         timestamp = 0;
     }
 
+    /**
+     * show online users
+     *
+     * @return online users
+     */
     public static List<String> onlineUsers() {
 
         List<User> onUsers = new ArrayList<>(getUsers());
         List<String> userNames = new ArrayList<>();
-        for(User user : onUsers) {
+        for (User user : onUsers) {
             if (user.isConnected() && user.getType().equals("normal")) {
                 String name = user.getUsername();
                 userNames.add(name);
@@ -577,28 +618,33 @@ public final class Admin {
         return userNames;
     }
 
+    /**
+     * show all users
+     *
+     * @return all users
+     */
     public static List<String> allUsers() {
 
         List<String> userNames = new ArrayList<>();
-        for(User user : users) {
+        for (User user : users) {
             if (user.isConnected() && user.getType().equals("normal")) {
                 String name = user.getUsername();
                 userNames.add(name);
             }
         }
-        for(User user : users) {
+        for (User user : users) {
             if (user.isConnected() && user.getType().equals("user")) {
                 String name = user.getUsername();
                 userNames.add(name);
             }
         }
-        for(User user : users) {
+        for (User user : users) {
             if (user.isConnected() && user.getType().equals("artist")) {
                 String name = user.getUsername();
                 userNames.add(name);
             }
         }
-        for(User user : users) {
+        for (User user : users) {
             if (user.isConnected() && user.getType().equals("host")) {
                 String name = user.getUsername();
                 userNames.add(name);

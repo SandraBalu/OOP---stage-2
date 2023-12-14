@@ -1,7 +1,9 @@
 package app.searchBar;
 
 import app.audio.LibraryEntry;
+import app.user.User;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -146,6 +148,18 @@ public final class FilterUtils {
         List<LibraryEntry> result = new ArrayList<>();
         for (LibraryEntry entry : entries) {
             if (criteria.matches(entry)) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
+
+    static List<LibraryEntry> filterByType(final List<LibraryEntry> entries,
+                                           final String type) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            User user = (User) entry;
+            if(user.getType().equals(type)) {
                 result.add(entry);
             }
         }

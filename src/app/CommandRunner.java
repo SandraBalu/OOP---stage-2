@@ -81,10 +81,12 @@ public final class CommandRunner {
                 && user.getSearchBar().getLastSearchType().equals("artist")) {
 
             PageFactory pageFactory = new PageFactory();
-            User artistUser = Admin.getUser(user.getSearchBar().getLastSelected().getName());
-            if (artistUser != null) {
-                user.setCurrentPage(pageFactory.getPage("ArtistPage", artistUser));
-                user.setPageType("ArtistPage");
+            if (user.getSearchBar().getLastSelected() != null) {
+                User artistUser = Admin.getUser(user.getSearchBar().getLastSelected().getName());
+                if (artistUser != null) {
+                    user.setCurrentPage(pageFactory.getPage("ArtistPage", artistUser));
+                    user.setPageType("ArtistPage");
+                }
             }
         }
 
@@ -571,18 +573,12 @@ public final class CommandRunner {
     public static ObjectNode switchConnection(final CommandInput commandInput) {
 
         User user = Admin.getUser(commandInput.getUsername());
+        String  message;
         if (user == null) {
-
-            ObjectNode objectNode = objectMapper.createObjectNode();
-            objectNode.put("command", commandInput.getCommand());
-            objectNode.put("user", commandInput.getUsername());
-            objectNode.put("timestamp", commandInput.getTimestamp());
-            String message = "The username " + commandInput.getUsername() + " doesn't exist.";
-            objectNode.put("message", message);
-            return objectNode;
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        } else {
+            message = user.switchConnection(user, commandInput);
         }
-
-        String  message = user.switchConnection(user);
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -669,7 +665,7 @@ public final class CommandRunner {
                 message = user.addAlbum(commandInput.getName(), commandInput.getSongs());
 
             } else {
-                message = user.getUsername() + "is not an artist.";
+                message = user.getUsername() + " is not an artist.";
             }
 
         } else {
@@ -690,11 +686,10 @@ public final class CommandRunner {
         if (Admin.getUser(commandInput.getUsername()) != null) {
             User user = Admin.getUser(commandInput.getUsername());
 
-
             if (user.getType().equals("artist")) {
                 message = user.removeAlbum(commandInput);
             } else {
-                message = user.getUsername() + "is not an artist.";
+                message = user.getUsername() + " is not an artist.";
             }
 
         } else {
@@ -748,7 +743,7 @@ public final class CommandRunner {
                 message = user.removePodcast(commandInput.getName());
 
             } else {
-                message = user.getUsername() + "is not an host.";
+                message = user.getUsername() + " is not an host.";
             }
 
         } else {

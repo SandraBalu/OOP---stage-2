@@ -47,6 +47,10 @@ public final class Admin {
         }
     }
 
+    public static void setTimestamp(int timestamp) {
+        Admin.timestamp = timestamp;
+    }
+
     /**
      * Add new user in the list
      *
@@ -78,6 +82,40 @@ public final class Admin {
                     if (currentSong.getArtist().equals(artist.getUsername())) {
                         return artist.getUsername() + " can't be deleted.";
                     }
+                } else if (user1.getPlayer() != null && user1.getPlayer().getType() != null &&
+                        user1.getPlayer().getType().equals("playlist") && user1.getPlayer().getCurrentAudioFile() != null) {
+
+                    String playlistName = user1.getPlayer().getCollectionName();
+                    int i = 0;
+                    for (Playlist playlist : Admin.getPlaylists()) {
+                        if (playlist.getName().equals(playlistName)) {
+                            break;
+                        }
+                        i++;
+                    }
+                    Playlist currentPlaylist = Admin.getPlaylists().get(i);
+                    for (Song song : currentPlaylist.getSongs()) {
+                        if (song.getArtist().equals(artist.getUsername())) {
+                            return artist.getUsername() + " can't be deleted.";
+                        }
+                    }
+                }
+            }
+
+//            ArrayList<Playlist> playlists = user1.getPlaylists();
+//            for (Playlist playlist : playlists) {
+//                System.out.println(playlist.getName());
+//                ArrayList<Song> songs = playlist.getSongs();
+//                for (Song song : songs) {
+//                    if (song.getArtist().equals(artist.getUsername())) {
+//                        return artist.getUsername() + " can't be deleted.";
+//                    }
+//                }
+//            }
+
+            if (user1.getPageType() != null && user1.getPageType().equals("ArtistPage")) {
+                if (user1.getSearchBar().getLastSelected().getName().equals(artist.getUsername())) {
+                    return artist.getUsername() + " can't be deleted.";
                 }
             }
         }
@@ -144,11 +182,11 @@ public final class Admin {
         for (User user1 : users) {
             Player currentPlayer = user1.getPlayer();
             if (currentPlayer != null && currentPlayer.getType() != null) {
-                if (currentPlayer.getType().equals("playlist")) {
-                    String currentPlaylist = user1.getSearchBar().getLastSelected().getName();
+                if (currentPlayer.getType().equals("playlist") && currentPlayer.getCollectionName() != null && currentPlayer.getCurrentAudioFile() != null) {
+                    String currentPlaylist = currentPlayer.getCollectionName();
                     for (Playlist playlist : user.getPlaylists()) {
                         if (playlist.getName().equals(currentPlaylist)) {
-                            return "can't delete";
+                            return user.getUsername() + " can't be deleted.";
                         }
                     }
                 }
@@ -208,12 +246,23 @@ public final class Admin {
                 }
             }
         }
-        return "delete";
+        ArrayList<Podcast> podcasts = hostUser.getPodcasts();
+        for (Podcast podcast : podcasts) {
+            hostUser.removePodcast(podcast.getName());
+        }
+        return hostUser.getUsername() + " was successfully deleted.";
     }
 
     public static String deleteUser(User user) {
+//
+//        for (User user1 : users) {
+//            if (user1.getPlayer() != null && user1.getPlayer().getCollectionName() != null && user1.getPlayer().getType() != null && user1.getPlayer().getCurrentAudioFile() != null) {
+//                System.out.println( user1.getPlayer().getType() + " name: " + user1.getPlayer().getCollectionName() + " - " + user1.getPlayer().getCurrentAudioFile().getName());
+//            }
+//        }
 
-        if (user.getType().equals("normal")) {
+
+        if (user.getType().equals("normal") || user.getType().equals("user")) {
             return removeUser(user);
         } else if (user.getType().equals("artist")) {
             return deleteArtist(user);

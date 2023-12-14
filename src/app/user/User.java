@@ -406,7 +406,7 @@ public class User extends LibraryEntry{
             return "Please load a source before liking or unliking.";
         }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
+        if (player.getType().equals("podcast")) {
             return "Loaded source is not a song.";
         }
 
@@ -672,16 +672,18 @@ public class User extends LibraryEntry{
      * @param user the user whose connection is changed
      * @return the string
      */
-    public String switchConnection(User user) {
+    public String switchConnection(User user ,CommandInput command) {
 
-      user.setConnected(!user.isConnected());
-      String message =  user.getUsername() + " has changed status successfully.";
+        if (user.getType().equals("artist") || user.getType().equals("host")) {
+            return user.username + " is not a normal user.";
 
-        if (player.getCurrentAudioFile() == null) {
-            return message;
+        }
+        user.setConnected(!user.isConnected());
+        if (user.isConnected) {
+            Admin.setTimestamp(command.getTimestamp());
         }
 
-      return message;
+        return user.getUsername() + " has changed status successfully.";
 
     }
 
@@ -711,7 +713,7 @@ public class User extends LibraryEntry{
 
     public String removeAlbum(CommandInput commandInput) {
         if (!type.equals("artist")) {
-            return username + "is not a artist";
+            return username + " is not a artist";
         }
         List<String> albums1 = albums.stream().map(Album::getName).toList();
         if (!albums1.contains(commandInput.getName())) {
@@ -746,7 +748,6 @@ public class User extends LibraryEntry{
                             return commandInput.getUsername() + " can't delete this album.";
                         }
                     }
-                    return "trie";
                 }
             }
         }

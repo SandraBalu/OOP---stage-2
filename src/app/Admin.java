@@ -439,8 +439,24 @@ public final class Admin {
      * @return the top 5 songs
      */
     public static List<String> getTop5Songs() {
-        List<Song> sortedSongs = new ArrayList<>(songs);
+        List<Song> sortedSongs = new ArrayList<>();
+        for (Song song : songs) {
+            Song songCopy = new Song(song.getName(),song.getDuration(),song.getAlbum(),
+                    song.getTags(),song.getLyrics(),song.getGenre(),song.getReleaseYear(),song.getArtist());
+            for (User user : users) {
+                List<Song> likedSongs = user.getLikedSongs();
+                for (Song likedSong : likedSongs) {
+                    if (likedSong.getName().equals(songCopy.getName())) {
+                        songCopy.setLikes(songCopy.getLikes() + 1);
+                    }
+                }
+            }
+            sortedSongs.add(songCopy);
+        }
+
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
+
+
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
@@ -451,6 +467,40 @@ public final class Admin {
             count++;
         }
         return topSongs;
+    }
+
+    public static List<String> getTop5Artists() {
+
+        List<User> artists = new ArrayList<>();
+        for (User user : users) {
+            if (user.getType().equals("artist")) {
+                artists.add(Admin.getUser(user.getName()));
+            }
+        }
+        List<User> sortedArtists = new ArrayList<>();
+        for (User user : artists) {
+            User artist = new User(user.getName(),user.getAge(), user.getCity(), user.getType());
+            artist.setLikes(0);
+            for (Album album : albums) {
+                if (album.getOwner().equals(artist.getUsername())) {
+                    artist.setLikes(artist.getLikes() + album.getLikes());
+                }
+            }
+            sortedArtists.add(artist);
+        }
+
+        sortedArtists.sort(Comparator.comparingInt(User::getLikes).reversed());
+        List<String> topArtists = new ArrayList<>();
+        int count = 0;
+        for (User user : sortedArtists) {
+            System.out.println(user.getLikes());
+            if (count >= LIMIT) {
+                break;
+            }
+            topArtists.add(user.getName());
+            count++;
+        }
+        return topArtists;
     }
 
 
@@ -490,7 +540,7 @@ public final class Admin {
         }
         sortedAlbums.sort(Comparator.comparingInt(Album::getLikes)
                 .reversed()
-                .thenComparing(Album::getTimestamp, Comparator.naturalOrder()));
+                .thenComparing(Album::getName));
         List<String> topAlbums = new ArrayList<>();
         int count = 0;
         for (Album album : sortedAlbums) {

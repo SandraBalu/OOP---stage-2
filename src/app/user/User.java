@@ -53,8 +53,8 @@ public class User extends LibraryEntry{
     private boolean lastSearched;
     private boolean isConnected;
     private Page currentPage;
-
     private String pageType;
+    private  int likes;
 
     public Page getCurrentPage() {
         return currentPage;
@@ -134,6 +134,14 @@ public class User extends LibraryEntry{
         return searchBar;
     }
 
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
+    }
+
     public boolean isLastSearched() {
         return lastSearched;
     }
@@ -187,6 +195,7 @@ public class User extends LibraryEntry{
         this.username = username;
         this.age = age;
         this.city = city;
+        likes = 0;
         playlists = new ArrayList<>();
         likedSongs = new ArrayList<>();
         albums = new ArrayList<>();

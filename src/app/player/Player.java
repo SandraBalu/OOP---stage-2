@@ -21,6 +21,8 @@ public final class Player {
     private String type;
     private final int skipTime = 90;
 
+    private String collectionName;
+
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
 
     public Enums.RepeatMode getRepeatMode() {
@@ -57,6 +59,14 @@ public final class Player {
 
     public String getType() {
         return type;
+    }
+
+    public String getCollectionName() {
+        return collectionName;
+    }
+
+    public void setCollectionName(String collectionName) {
+        this.collectionName = collectionName;
     }
 
     public void setType(String type) {
@@ -181,7 +191,7 @@ public final class Player {
             source.generateShuffleOrder(seed);
         }
 
-        if (source.getType() == Enums.PlayerSourceType.PLAYLIST) {
+        if (source.getType() == Enums.PlayerSourceType.PLAYLIST ||  source.getType() == Enums.PlayerSourceType.ALBUM) {
             shuffle = !shuffle;
             if (shuffle) {
                 source.updateShuffleIndex();

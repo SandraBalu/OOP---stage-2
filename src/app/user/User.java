@@ -20,7 +20,9 @@ import fileio.input.SongInput;
 import lombok.Getter;
 import org.checkerframework.checker.units.qual.A;
 import org.checkerframework.checker.units.qual.C;
-
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
+import java.util.Date;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -168,6 +170,7 @@ public class User extends LibraryEntry{
         return podcasts;
     }
 
+
     public ArrayList<Announcement> getAnnouncements() {
         return announcements;
     }
@@ -265,9 +268,12 @@ public class User extends LibraryEntry{
 
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
 
+        player.setCollectionName(searchBar.getLastSelected().getName());
+
         searchBar.clearSelection();
 
         player.pause();
+
 
         return "Playback loaded successfully.";
     }
@@ -339,7 +345,7 @@ public class User extends LibraryEntry{
             return "Please load a source before using the shuffle function.";
         }
 
-        if (!player.getType().equals("playlist")) {
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
             return "The loaded source is not a playlist or an album.";
         }
 
@@ -707,32 +713,46 @@ public class User extends LibraryEntry{
         if (!type.equals("artist")) {
             return username + "is not a artist";
         }
-        for (Album album : albums){
-            if (album.getName().equals(commandInput.getName())) {
-                //remove album
-                ArrayList<Song> songs = album.getSongs();
-                for (User user : Admin.getUsers()) {
-                    if (user.getPlayer() != null && user.getPlayer().getType() != null) {
-                        if (user.getPlayer().getType().equals("song")) {
-                            for (Song song : songs) {
-                                if (user.getPlayer().getCurrentAudioFile() != null && song.getName().equals(user.getPlayer().getCurrentAudioFile().getName())) {
-                                    return username + " can't delete this album.";
-                                }
-                            }
+        List<String> albums1 = albums.stream().map(Album::getName).toList();
+        if (!albums1.contains(commandInput.getName())) {
+            //no album with the given name
+            return username + " doesn't have an album with the given name.";
+        } else {
+            int index = albums1.indexOf(commandInput.getName());
+            Album album = albums.get(index);
+            for (User user : Admin.getUsers()) {
+                if (user.getPlayer() != null && user.getPlayer().getType() != null &&
+                        (user.getPlayer().getType().equals("album") || user.getPlayer().getType().equals("album"))) {
 
-                        }
-                        if (user.getPlayer().getType().equals("album")) {
-//                            return username + " can't delete this album.";
+                    if (user.getPlayer().getCurrentAudioFile() != null) {
+                        Song song = (Song) user.getPlayer().getCurrentAudioFile();
+                        if (song.getAlbum().equals(commandInput.getName())) {
+                            return commandInput.getUsername() + " can't delete this album.";
                         }
                     }
+                } else if (user.getPlayer() != null && user.getPlayer().getType() != null && user.getPlayer().getType().equals("playlist")) {
+                    String playlistName = user.getPlayer().getCollectionName();
+                    int i = 0;
+                    for (Playlist playlist : Admin.getPlaylists()) {
+                        if (playlist.getName().equals(playlistName)) {
+                            break;
+                        }
+                        i++;
+                    }
+                    Playlist currentPlaylist = Admin.getPlaylists().get(i);
+                    for (Song song : currentPlaylist.getSongs()) {
+                        System.out.println(song.getName() + " - " + song.getAlbum());
+                        if (song.getAlbum().equals(commandInput.getName())) {
+                            return commandInput.getUsername() + " can't delete this album.";
+                        }
+                    }
+                    return "trie";
                 }
-                return "delete album";
             }
         }
-        //no album with the given name
-        return username + " doesn't have an album with the given name.";
+            return  "delete";
 
-    }
+        }
 
     public String addPodcast(final String name, final ArrayList<Episode> episodes) {
         if (podcasts.stream().anyMatch(podcast -> podcast.getName().equals(name))) {
@@ -809,6 +829,23 @@ public class User extends LibraryEntry{
                         return username + " has another event with the same name.";
                     }
                 }
+
+                String date = commandInput.getDate();
+                String[] componente = date.split("-");
+                int day = Integer.parseInt(componente[0]);
+                int month = Integer.parseInt(componente[1]);
+                int year = Integer.parseInt(componente[2]);
+
+                if (year < 1900 || year > 2023) {
+                    return "Event for " + username +" does not have a valid date.";
+                }
+                if (month > 12) {
+                    return "Event for " + username +" does not have a valid date.";
+                }
+                if (day > 31 || (month == 2 && day > 28)) {
+                    return "Event for " + username +" does not have a valid date.";
+                }
+
                 Event newEvent = new Event(commandInput.getName(),
                         commandInput.getDescription(), commandInput.getDate());
 
@@ -817,6 +854,29 @@ public class User extends LibraryEntry{
             }
         }
         return "The username " + username + " doesn't exist.";
+    }
+
+    public String removeEvent(CommandInput commandInput) {
+        if (!type.equals("artist")) {
+            return username + " is not a artist.";
+        } else {
+            String message = new String();
+            int index = 0;
+            for (Event event : events) {
+                if (event.getName().equals(commandInput.getName())) {
+                    message = username + " deleted the event successfully.";
+                    break;
+                }
+                index++;
+            }
+
+            if (index < events.size() && message != null) {
+                Event eventRemove = events.get(index);
+                events.remove(eventRemove);
+                return message;
+            }
+            return username + " has no announcement with the given name.";
+        }
     }
     public String addAnnouncement(CommandInput commandInput) {
 

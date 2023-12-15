@@ -1,10 +1,8 @@
 package app.audio.Collections;
 
-import app.utils.Enums;
-
 import java.util.ArrayList;
 
-public class AlbumOutput {
+public final class AlbumOutput {
     private final String name;
     private final ArrayList<String> songs;
 

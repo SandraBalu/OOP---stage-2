@@ -13,7 +13,7 @@ import java.util.Random;
 /**
  * The type Player source.
  */
-public class PlayerSource {
+public final class PlayerSource {
     @Getter
     private Enums.PlayerSourceType type;
     @Getter
@@ -31,7 +31,7 @@ public class PlayerSource {
         return type;
     }
 
-    public void setType(Enums.PlayerSourceType type) {
+    public void setType(final Enums.PlayerSourceType type) {
         this.type = type;
     }
 
@@ -39,7 +39,7 @@ public class PlayerSource {
         return audioCollection;
     }
 
-    public void setAudioCollection(AudioCollection audioCollection) {
+    public void setAudioCollection(final AudioCollection audioCollection) {
         this.audioCollection = audioCollection;
     }
 
@@ -49,30 +49,6 @@ public class PlayerSource {
 
     public int getIndex() {
         return index;
-    }
-
-    public void setIndex(int index) {
-        this.index = index;
-    }
-
-    public int getIndexShuffled() {
-        return indexShuffled;
-    }
-
-    public void setIndexShuffled(int indexShuffled) {
-        this.indexShuffled = indexShuffled;
-    }
-
-    public int getRemainedDuration() {
-        return remainedDuration;
-    }
-
-    public void setRemainedDuration(int remainedDuration) {
-        this.remainedDuration = remainedDuration;
-    }
-
-    public List<Integer> getIndices() {
-        return indices;
     }
 
     /**

@@ -47,7 +47,7 @@ public final class Song extends AudioFile {
         return likes;
     }
 
-    public void setLikes(Integer likes) {
+    public void setLikes(final Integer likes) {
         this.likes = likes;
     }
 

@@ -4,7 +4,7 @@ import app.utils.Enums;
 import lombok.Getter;
 
 @Getter
-public class PlayerStats {
+public final class PlayerStats {
     private final String name;
     private final int remainedTime;
     private String repeat;
@@ -23,7 +23,7 @@ public class PlayerStats {
         return repeat;
     }
 
-    public void setRepeat(String repeat) {
+    public void setRepeat(final String repeat) {
         this.repeat = repeat;
     }
 

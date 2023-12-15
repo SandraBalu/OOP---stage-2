@@ -1,11 +1,7 @@
 package app.pages;
-
 import app.audio.Collections.Playlist;
 import app.audio.Files.Song;
-import app.user.User;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -17,7 +13,8 @@ public class HomePage implements Page {
     private List<Song> likedSongs;
     private List<Playlist> followedPlaylists;
 
-    public HomePage(String username, List<Song> likedSongs, List<Playlist> followedPlaylists) {
+    public HomePage(final String username, final List<Song> likedSongs,
+                    final List<Playlist> followedPlaylists) {
         this.username = username;
         this.likedSongs = likedSongs;
         this.followedPlaylists = followedPlaylists;
@@ -28,6 +25,9 @@ public class HomePage implements Page {
         followedPlaylists = new ArrayList<>();
     }
 
+    /**
+     *String for displaying current page
+     */
     @Override
     public String displayContent() {
         List<Song> sortedSongs = new ArrayList<>(likedSongs);
@@ -66,6 +66,10 @@ public class HomePage implements Page {
         }
         return "Liked songs:\n\t" + topSongs + "\n\nFollowed playlists:\n\t" +  topPlaylists;
     }
+
+    /**
+     *String for displaying change page message
+     */
     @Override
     public String switchMessage() {
         return username + " accessed Home successfully.";

@@ -11,6 +11,11 @@ import lombok.Getter;
 public abstract class AudioCollection extends LibraryEntry {
     private final String owner;
 
+    /**
+     * Get Audi collection owner
+     *
+     * @return owner name
+     */
     public String getOwner() {
         return owner;
     }

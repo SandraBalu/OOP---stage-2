@@ -1,10 +1,7 @@
 package app.audio.Collections;
-
 import app.audio.Files.AudioFile;
-import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import fileio.input.SongInput;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,8 +32,13 @@ public final class Album extends AudioCollection {
         }
     }
 
-    public void setLikes(final List<Song> songs) {
-        for (Song song : songs) {
+    /**
+     * Sets total likes for album.
+     *
+     * @param albumSongs the song
+     */
+    public void setLikes(final List<Song> albumSongs) {
+        for (Song song : albumSongs) {
             likes += song.getLikes();
         }
     }
@@ -53,7 +55,7 @@ public final class Album extends AudioCollection {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
+    public void setTimestamp(final int timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -61,7 +63,7 @@ public final class Album extends AudioCollection {
         return releaseYear;
     }
 
-    public void setReleaseYear(int releaseYear) {
+    public void setReleaseYear(final int releaseYear) {
         this.releaseYear = releaseYear;
     }
 
@@ -69,7 +71,7 @@ public final class Album extends AudioCollection {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(final String description) {
         this.description = description;
     }
 

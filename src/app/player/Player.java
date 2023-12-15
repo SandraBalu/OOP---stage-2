@@ -29,7 +29,7 @@ public final class Player {
         return repeatMode;
     }
 
-    public void setRepeatMode(Enums.RepeatMode repeatMode) {
+    public void setRepeatMode(final Enums.RepeatMode repeatMode) {
         this.repeatMode = repeatMode;
     }
 
@@ -37,7 +37,7 @@ public final class Player {
         return shuffle;
     }
 
-    public void setShuffle(boolean shuffle) {
+    public void setShuffle(final boolean shuffle) {
         this.shuffle = shuffle;
     }
 
@@ -45,7 +45,7 @@ public final class Player {
         return paused;
     }
 
-    public void setPaused(boolean paused) {
+    public void setPaused(final boolean paused) {
         this.paused = paused;
     }
 
@@ -53,7 +53,7 @@ public final class Player {
         return source;
     }
 
-    public void setSource(PlayerSource source) {
+    public void setSource(final PlayerSource source) {
         this.source = source;
     }
 
@@ -65,11 +65,11 @@ public final class Player {
         return collectionName;
     }
 
-    public void setCollectionName(String collectionName) {
+    public void setCollectionName(final String collectionName) {
         this.collectionName = collectionName;
     }
 
-    public void setType(String type) {
+    public void setType(final String type) {
         this.type = type;
     }
 
@@ -81,7 +81,7 @@ public final class Player {
         return bookmarks;
     }
 
-    public void setBookmarks(ArrayList<PodcastBookmark> bookmarks) {
+    public void setBookmarks(final ArrayList<PodcastBookmark> bookmarks) {
         this.bookmarks = bookmarks;
     }
 
@@ -107,6 +107,9 @@ public final class Player {
         shuffle = false;
     }
 
+    /**
+     * bookmark for podcast
+     */
     private void bookmarkPodcast() {
         if (source != null && source.getAudioFile() != null) {
             PodcastBookmark currentBookmark =
@@ -142,10 +145,22 @@ public final class Player {
         return null;
     }
 
+    /**
+     * Create album source
+     *
+     * @param collection
+     * @return
+     */
     private static PlayerSource createAlbumSource(final AudioCollection collection) {
         return new PlayerSource(Enums.PlayerSourceType.ALBUM, collection);
     }
 
+    /**
+     * Create podcast source
+     * @param collection
+     * @param bookmarks
+     * @return
+     */
     private static PlayerSource createPodcastSource(final AudioCollection collection,
                                                     final List<PodcastBookmark> bookmarks) {
         for (PodcastBookmark bookmark : bookmarks) {
@@ -190,8 +205,8 @@ public final class Player {
         if (seed != null) {
             source.generateShuffleOrder(seed);
         }
-
-        if (source.getType() == Enums.PlayerSourceType.PLAYLIST ||  source.getType() == Enums.PlayerSourceType.ALBUM) {
+        if (source.getType() == Enums.PlayerSourceType.PLAYLIST
+                || source.getType() == Enums.PlayerSourceType.ALBUM) {
             shuffle = !shuffle;
             if (shuffle) {
                 source.updateShuffleIndex();

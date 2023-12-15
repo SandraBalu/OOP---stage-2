@@ -2,7 +2,7 @@ package app.audio.Files;
 
 import app.audio.LibraryEntry;
 
-public class Merch extends LibraryEntry {
+public final class Merch extends LibraryEntry {
     private String description;
     private int price;
 
@@ -19,7 +19,7 @@ public class Merch extends LibraryEntry {
      *
      * @param name the name
      */
-    public Merch(String name, String description, int price) {
+    public Merch(final String name, final String description, final int price) {
         super(name);
         this.description = description;
         this.price = price;

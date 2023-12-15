@@ -25,7 +25,7 @@ public final class Playlist extends AudioCollection {
         return visibility;
     }
 
-    public void setVisibility(Enums.Visibility visibility) {
+    public void setVisibility(final Enums.Visibility visibility) {
         this.visibility = visibility;
     }
 
@@ -33,7 +33,7 @@ public final class Playlist extends AudioCollection {
         return followers;
     }
 
-    public void setFollowers(Integer followers) {
+    public void setFollowers(final Integer followers) {
         this.followers = followers;
     }
 
@@ -41,7 +41,7 @@ public final class Playlist extends AudioCollection {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
+    public void setTimestamp(final int timestamp) {
         this.timestamp = timestamp;
     }
 

@@ -7,6 +7,9 @@ import lombok.Getter;
 public abstract class AudioFile extends LibraryEntry {
     private final Integer duration;
 
+    /**
+     * get the duration of an audio file
+     */
     public Integer getDuration() {
         return duration;
     }

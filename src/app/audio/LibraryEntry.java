@@ -11,6 +11,12 @@ import java.util.ArrayList;
 public abstract class LibraryEntry {
     private final String name;
 
+
+    /**
+     * Get library entry name
+     *
+     * @return the name
+     */
     public String getName() {
         return name;
     }

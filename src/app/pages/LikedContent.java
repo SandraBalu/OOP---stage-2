@@ -12,18 +12,24 @@ public class LikedContent implements Page {
     private String username;
     private List<Song> likedSongs;
 
-    public LikedContent(String username, List<Song> likedSongs, List<Playlist> followedPlaylists) {
+    public LikedContent(final String username, final List<Song> likedSongs,
+                        final List<Playlist> followedPlaylists) {
+
         this.username = username;
         this.likedSongs = likedSongs;
         this.followedPlaylists = followedPlaylists;
     }
 
+    /**
+     *String for displaying current page content
+     */
     @Override
     public String displayContent() {
         ArrayList<String> message = new ArrayList<>();
         for (Playlist playlist : followedPlaylists) {
             StringBuilder playlistOutput = new StringBuilder();
-            playlistOutput.append(playlist.getName()).append(" - ").append(playlist.getOwner());
+            playlistOutput.append(playlist.getName()).append(" - ").
+                    append(playlist.getOwner());
             message.add(playlistOutput.toString());
         }
 
@@ -37,6 +43,9 @@ public class LikedContent implements Page {
         return "Liked songs:\n\t" + message1 + "\n\nFollowed playlists:\n\t" + message;
     }
 
+    /**
+     *String for displaying change page message
+     */
     @Override
     public String switchMessage() {
         return username + " accessed LikedContent successfully.";

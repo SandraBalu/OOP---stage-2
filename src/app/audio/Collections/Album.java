@@ -11,7 +11,6 @@ public final class Album extends AudioCollection {
     private int timestamp;
     private int releaseYear;
     private String description;
-
     private int likes;
 
     public Album(final String name, final String owner) {

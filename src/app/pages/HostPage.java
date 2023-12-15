@@ -58,7 +58,7 @@ public class HostPage implements Page {
      */
     @Override
     public String switchMessage() {
-        return "Home page";
+        return "Host page";
     }
 
 

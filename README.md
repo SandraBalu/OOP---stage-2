@@ -2,7 +2,8 @@
 
 #### Assignment Link: [https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1](https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1)
 
-General description
+General description:
+
 For this project we are implementing an application similar in functionality to Spotify, simulating different actions made by users, which can be normal, artists or hosts. These actions will be simulated using some commands received in the input files, and the implementation of the application will be done from the Admin perspective.
     
 ## Structure of the project
